@@ -1,0 +1,89 @@
+.header {
+    background-image: url('img/background_chair.jpg');
+    background-size: 1590px;
+    background-repeat: no-repeat;
+}
+.header__top-navigation {
+    margin: 0 191.5px;
+    padding: 30px 15px;
+}
+.color-green {
+    color: var(--green);
+}
+.link {
+    font-size: 15px;
+    text-decoration: none;
+    color: #333333;
+}
+.link:hover {
+    color: var(--green);
+}
+.button {
+    font-family: Hind;
+}
+.link-button {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 13px;
+    width: 103.66px;
+    height: 42.8px;
+    font-size: 10.8px;
+    color: #757171;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid;
+    border-color: var(--green);
+    border-radius: 5px;
+}
+.link-button:hover {
+    color: white;
+    background-color: var(--green);
+}
+.header__banner {
+    margin-left: 191.5px;
+    padding-top: 15px;
+    padding-bottom: 330px;
+}
+.header__banner-h1 {
+    display: block;
+    width: 535.84px;
+    line-height: 92.4px;
+    font-size: 84px;
+}
+.subheader {
+    font-size: 18px;
+    color: #333333;
+}
+.header__banner-link-button {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 17px;
+    width: 255.67px;
+    height: 55.19px;
+    font-size: 13.2px;
+    font-weight: 700;
+    color: white;
+    background-color: var(--green);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+.header__banner-link-button:hover {
+    background-color: #242424;
+}
+.products-furniture {
+    margin-left: 191.5px;
+}
+.link__products-button {
+    font-size: 12px;
+    color: #242424;
+    text-decoration: none;
+}
+.link__products-button:hover {
+    text-decoration: underline;
+}
+.products h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333333;
+}
