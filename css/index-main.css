@@ -7,11 +7,13 @@
 .what__text-header {
     color: var(--text-header-color);
     font-size: 30px;
+    font-weight: 600;
 }
 
 .what__text-header-content {
     color: var(--text-header-color);
     font-size: 18px;
+    font-weight: 400;
 }
 
 .what__feedback-content {
@@ -21,16 +23,19 @@
 .what__feedback-content-name {
     color: var(--text-header-color);
     font-size: 22px;
+    font-weight: 500;
 }
 
 .what__feedback-content-city-data {
     color: var(--text-header-color);
     font-size: 14px;
+    font-weight: 500;
 }
 
 .what__feedback-content-text {
     color: var(--plain-text-color);
     font-size: 16px;
+    font-weight: 400;
 }
 
 /*Anna's block end*/
