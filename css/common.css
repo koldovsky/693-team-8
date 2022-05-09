@@ -16,3 +16,17 @@
     --plain-text-color: #707070;
     font-family: 'Poppins', sans-serif;
 }
+
+form {
+    text-rendering: auto;
+    width: 400px;
+    padding: 60px;
+}
+
+input {
+    padding: 20px 30px;
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 5px;
+    border-color: #757171;
+}
