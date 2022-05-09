@@ -1,0 +1,10 @@
+/*Sabina's css start*/
+ .springcollection {
+    background-image: url(../img/collection/springcollectionbackground.jpg);
+    background-size: cover;
+    padding: 170px 0 180px;
+    background-position: 50%;
+    min-height: 320px;
+    background-attachment: fixed;
+}
+/*Sabina's css end*/

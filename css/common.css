@@ -1,9 +1,10 @@
 /* general website font */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Hind:wght@700&family=Poppins:wght@500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Hind:wght@700&family=Poppins:wght@500;700&display=swap'); 
 
 /* clearing default styles */
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
