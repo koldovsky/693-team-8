@@ -1,6 +1,6 @@
 /*Sabina's css start*/
 .springcollection {
-    background-image: url(../img/collection/springcollectionbackground.jpg);
+    background-image: url(../img/collection/spring-collection-background.jpg);
     background-size: cover;
     padding: 170px 0 180px;
     background-position: 50%;
@@ -54,7 +54,7 @@
 }
 
 .furniturecollections__colorful {
-    background-image: url(../img/collection/colorfulcollectionbackground.jpg);
+    background-image: url(../img/collection/colorful-collection-background.jpg);
     background-size: cover;
     width: 570px;
     background-position: 10% 47.57%;
@@ -78,7 +78,7 @@
 }
 
 .furniturecollections__blackwhite {
-    background-image: url(../img/collection/blackwhitecollectionbackground.jpg);
+    background-image: url(../img/collection/black-white-collection-background.jpg);
     background-size: cover;
     width: 570px;
     background-position: 10% 47.57%;
