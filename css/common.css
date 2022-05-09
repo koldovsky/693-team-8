@@ -1,5 +1,6 @@
 /* general website font */
- @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Hind:wght@700&family=Poppins:wght@500;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Hind:wght@700&family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /* clearing default styles */
 * {
@@ -8,3 +9,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --brand-accent-color: #7bb57c;
+    --background-light-color: #fff;
+    --background-shade-color: #f7f5f6;
+    --text-header-color: #333;
+    --plain-text-color: #707070;
+    font-family: 'Poppins', sans-serif;
+}
