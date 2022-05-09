@@ -1,5 +1,5 @@
 .header {
-    background-image: url('img/background_chair.jpg');
+    background-image: url(../img/background_chair.jpg);
     background-size: 1590px;
     background-repeat: no-repeat;
 }
