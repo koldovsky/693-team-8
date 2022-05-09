@@ -15,6 +15,12 @@
     font-size: 18px;
     font-weight: 400;
 }
+.what__customer-photo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 .what__feedback-content {
     background-color: var(--background-light-color);
