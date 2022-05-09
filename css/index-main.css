@@ -1,0 +1,36 @@
+/*Anna's block start*/
+
+.what {
+    background-color: var(--background-shade-color);
+}
+
+.what__text-header {
+    color: var(--text-header-color);
+    font-size: 30px;
+}
+
+.what__text-header-content {
+    color: var(--text-header-color);
+    font-size: 18px;
+}
+
+.what__feedback-content {
+    background-color: var(--background-light-color);
+}
+
+.what__feedback-content-name {
+    color: var(--text-header-color);
+    font-size: 22px;
+}
+
+.what__feedback-content-city-data {
+    color: var(--text-header-color);
+    font-size: 14px;
+}
+
+.what__feedback-content-text {
+    color: var(--plain-text-color);
+    font-size: 16px;
+}
+
+/*Anna's block end*/
