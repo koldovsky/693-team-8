@@ -1,5 +1,5 @@
 /*Sabina's css start*/
- .springcollection {
+.springcollection {
     background-image: url(../img/collection/springcollectionbackground.jpg);
     background-size: cover;
     padding: 170px 0 180px;
@@ -44,7 +44,6 @@
 
 /*Sabina's css end*/
 /*Anna's block start*/
-
 .what {
     background-color: var(--background-shade-color);
 }
@@ -59,6 +58,13 @@
     color: var(--text-header-color);
     font-size: 18px;
     font-weight: 400;
+}
+
+.what__customer-photo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .what__feedback-content {
@@ -81,6 +87,43 @@
     color: var(--plain-text-color);
     font-size: 16px;
     font-weight: 400;
+}
+
+.about {
+    background-color: var(--background-light-color);
+}
+
+.about__text {
+    background-color: var(--background-shade-color);
+}
+
+.about__text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #757171;
+}
+
+.about__text-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-header-color);
+}
+
+.about__accordion-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-header-color);
+}
+
+.about__accordion-content {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--plain-text-color);
+}
+
+.about__pic {
+    display: block;
+    width: 100%;
 }
 
 /*Anna's block end*/

@@ -1,0 +1,18 @@
+/* Maria block */
+.contacts_block {
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.contacts_form {
+    background-color: #F7F5F6;
+}
+.contacts_text {
+    color: #707070;
+}
+.contacts_bold {
+    color: #333333;
+}
+.contacts_bold_mail {
+    color: #242424;
+}
