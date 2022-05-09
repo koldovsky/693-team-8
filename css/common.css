@@ -7,3 +7,10 @@
     padding: 0;
 }
 
+:root {
+    --brand-accent-color: #7bb57c;
+    --background-light-color: #fff;
+    --background-shade-color: #f7f5f6;
+    --text-header-color: #333;
+    --plain-text-color: #707070;
+}
