@@ -30,16 +30,47 @@
     font-weight: 400;
 }
 
+.springcollection__button {
+    margin-top: 40px;
+    width: 154.188px;
+}
+
 .springcollection__faves-link {
     display: block;
-    margin-top: 40px;
+    margin: 10px;
     border: 2px solid;
-    width: 150.188px;
     font-size: 12px;
-    padding: 10px;
+    padding: 20px 30px;
     text-align: center;
     border-radius: 5px;
-    
+    background-color: var(--brand-accent-color);
+    color: #fff;
+    text-decoration: none;
+}
+
+.furniturecollections {
+    width: 1343px;
+    height: 516.594;
+}
+
+.furniturecollections__colorful {
+    background-image: url(../img/collection/colorfulcollectionbackground.jpg);
+    background-size: cover;
+    width: 570px;
+    background-position: 10% 47.57%;
+    height: 366.594px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.furniturecollections__blackwhite {
+    background-image: url(../img/collection/blackwhitecollectionbackground.jpg);
+    background-size: cover;
+    width: 570px;
+    background-position: 10% 47.57%;
+    height: 366.594px;
+    display: inline-block;
+    margin: 30px;
 }
 
 /*Sabina's css end*/
