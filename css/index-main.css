@@ -188,25 +188,35 @@
 /*Olga's block end*/
 /*Nataliia block start*/
 
-.top-colection-h {
+    .top-colection-h {
     padding: 100px;
     text-align: center;
+    color: rgb(125, 175, 125);
+    font-size: 56px;
+    font-weight: 700;
     }
     
     .best__selling-h3 {
         text-align: center;
+        font-size: 36px;
     }
     
     .best__selling-p {
         text-align: center;
+        margin: 15px;
     }
     .location {
         padding: 15px;
+        color: black;
+        display: block;
     }
     .location__h5 {
         padding: 15px;
+        display: block;
     }
     .location__h6 {
         padding: 15px;
+        display: block;
     }
+
 /*Nataliia black end*/
