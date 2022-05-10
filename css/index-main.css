@@ -89,6 +89,44 @@
 }
 
 /*Sabina's css end*/
+
+/*Aleksandr's css start*/
+.our-top-brands__kuko_img {
+    width: 450px;
+}
+
+.our_top_brands__landstrom-img {
+    width: 450px;
+}
+
+.top-brands__span {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--top-brands-span-text-color);
+}
+
+.top-brands__h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-family: 600;
+    color: var(--top-brands-h2-text-color);
+}
+
+.top-brands__subheader {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--plain-text-color);
+}
+
+.our_top_brands__link span {
+    font-family: Hind, sans-serif;
+    font-size: 10.8px;
+}
+
+/*Aleksandr's css end*/
+
 /*Anna's block start*/
 .what {
     background-color: var(--background-shade-color);
@@ -181,42 +219,47 @@
 .blog__text {
     font-size: 18px;
 }
+
 .iconify {
     color: var(--brand-accent-color);
     font-size: 2.2em;
 }
+
 /*Olga's block end*/
 /*Nataliia block start*/
 
-    .top-colection-h {
+.top-colection-h {
     padding: 100px;
     text-align: center;
     color: rgb(125, 175, 125);
     font-size: 56px;
     font-weight: 700;
-    }
-    
-    .best__selling-h3 {
-        text-align: center;
-        font-size: 36px;
-    }
-    
-    .best__selling-p {
-        text-align: center;
-        margin: 15px;
-    }
-    .location {
-        padding: 15px;
-        color: black;
-        display: block;
-    }
-    .location__h5 {
-        padding: 15px;
-        display: block;
-    }
-    .location__h6 {
-        padding: 15px;
-        display: block;
-    }
+}
+
+.best__selling-h3 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.best__selling-p {
+    text-align: center;
+    margin: 15px;
+}
+
+.location {
+    padding: 15px;
+    color: black;
+    display: block;
+}
+
+.location__h5 {
+    padding: 15px;
+    display: block;
+}
+
+.location__h6 {
+    padding: 15px;
+    display: block;
+}
 
 /*Nataliia black end*/
