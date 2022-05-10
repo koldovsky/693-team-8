@@ -182,7 +182,7 @@
     font-size: 18px;
 }
 .iconify {
-    color: rgb(123, 181, 124);
+    color: var(--brand-accent-color);
     font-size: 2.2em;
 }
 /*Olga's block end*/
