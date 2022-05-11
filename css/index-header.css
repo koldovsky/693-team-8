@@ -1,12 +1,24 @@
-.header {
-    background-image: url(../img/background_chair.jpg);
-    background-size: 1590px;
+.logo-sofa-header {
+    background-image: url('img/background_chair.jpg');
+    background-size: 1600px;
     background-repeat: no-repeat;
 }
-.header__top-navigation {
-    margin: 0 191.5px;
-    padding: 30px 15px;
+#burger-checkbox {
+    display: none;
 }
+.burger-icon {
+    font-size: 3rem;
+    display: none;
+}
+.header__top-navigation {
+    display: flex;
+    align-items: center;
+    margin: 0 191.5px;
+    padding: 30px 15px 30px 0;
+}
+.header__top-navigation-links {
+    margin-left: 350px;
+} 
 .color-green {
     color: var(--green);
 }
@@ -14,6 +26,7 @@
     font-size: 15px;
     text-decoration: none;
     color: #333333;
+    padding-right: 10px;
 }
 .link:hover {
     color: var(--green);
@@ -22,9 +35,7 @@
     font-family: Hind;
 }
 .link-button {
-    display: block;
-    box-sizing: border-box;
-    padding-top: 13px;
+    padding: 10px 20px;
     width: 103.66px;
     height: 42.8px;
     font-size: 10.8px;
@@ -41,12 +52,10 @@
 }
 .header__banner {
     margin-left: 191.5px;
-    padding-top: 15px;
+    padding-top: 155px;
     padding-bottom: 330px;
 }
 .header__banner-h1 {
-    display: block;
-    width: 535.84px;
     line-height: 92.4px;
     font-size: 84px;
 }
@@ -57,6 +66,7 @@
 .header__banner-link-button {
     display: block;
     box-sizing: border-box;
+    margin-top: 70px;
     padding-top: 17px;
     width: 255.67px;
     height: 55.19px;
@@ -72,7 +82,17 @@
     background-color: #242424;
 }
 .products-furniture {
-    margin-left: 191.5px;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.products-furniture-img {
+    display: block;
+    width: 100%;
+}
+.products-furniture div {
+    padding-right: 30px;
 }
 .link__products-button {
     font-size: 12px;
@@ -86,4 +106,42 @@
     font-size: 22px;
     font-weight: 500;
     color: #333333;
+}
+@media (max-width: 420px) {
+.header__top-navigation {
+    flex-direction: column;
+    margin-left: 45px;
+}
+.burger-icon {
+    display: block;
+    margin-top: -60px;
+    margin-left: 410px;
+}
+.burger-icon:hover {
+    color: var(--grey);
+}
+#burger-checkbox:checked~.header__top-navigation-links {
+    display: none;
+    flex-direction: column;
+}
+.header__top-navigation-links {
+    margin-left: 180px;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.products-furniture {
+    flex-direction: column;
+    margin-left: 10px;
+    }
+.header__banner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding-top: 0;
+}
+.header__banner-h1 {
+    line-height: 3.2rem;
+    font-size: 3.2rem;
+}
 }
