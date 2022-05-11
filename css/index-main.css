@@ -14,6 +14,9 @@
     width: 669.984px;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .springcollection__header-h2 {
@@ -59,9 +62,20 @@
     text-decoration: none;
 }
 
-.furniturecollections {
+.furniture {
     width: 1343px;
     height: 516.594px;
+}
+
+.furniturecollections {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 767px) {
+    .furniturecollections {
+        flex-direction: column;
+    }
 }
 
 .furniturecollections__colorful {
@@ -70,7 +84,6 @@
     width: 570px;
     background-position: 10% 47.57%;
     height: 366.594px;
-    display: inline-block;
     margin: 30px;
 }
 
@@ -94,7 +107,6 @@
     width: 570px;
     background-position: 10% 47.57%;
     height: 366.594px;
-    display: inline-block;
     margin: 30px;
     color: #fff;
 }
