@@ -1,20 +1,38 @@
-/* Maria block */
+/* contacts block */
 .contacts_block {
-    color: #333333;
+    color: var(--top-brands-h2-text-color);
     font-weight: 400;
-    padding: 115px 0;
+    padding: 15px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    align-items: center;
+    margin: 0 40px;
+}
+.contacts_block_form {
+    padding: 60px;
 }
 .contacts_form {
-    background-color: #F7F5F6;
+    background-color: var(--background-shade-color);
     display: flex;
     flex-direction: column;
 }
+.btn-contacts {
+    margin-top: 56px;
+}
 .contacts_text {
-    color: #707070;
+    color: var(--plain-text-color);
 }
 .contacts_bold {
-    color: #333333;
+    color: var(--top-brands-h2-text-color);
 }
 .contacts_bold_mail {
-    color: #242424;
+    color: var(--text-footer-bold-color);
+}
+.contacts_block_info {
+    padding: 0 15px;
+    font-size: 140%;
+}
+.contacts_text_header {
+    width: 550px;
 }
