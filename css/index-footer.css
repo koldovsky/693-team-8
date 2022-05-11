@@ -7,7 +7,6 @@
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
     align-items: center;
-    margin: 0 40px;
 }
 .contacts_block_form {
     padding: 60px;
