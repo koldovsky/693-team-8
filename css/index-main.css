@@ -308,6 +308,19 @@
     margin: 15px;
 }
 
+.best__selling-locations {
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--background-light-color);
+    min-width: 320px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: poppins;
+    margin-top: 24px;
+
+}
+
 .location {
     padding: 15px;
     color: black;
@@ -316,12 +329,15 @@
 
 .location__h5 {
     padding: 15px;
+    color: black;
     display: block;
 }
 
 .location__h6 {
     padding: 15px;
+    color: black;
     display: block;
 }
+
 
 /*Nataliia black end*/
