@@ -135,7 +135,25 @@
     line-height: 18.62px;
     letter-spacing: 0.896px;
     max-width: 100%;
+}
 
+.furniturecollection__blackwhite-header {
+    font-size: 22px;
+    line-height: 28.6px;
+    font-weight: 500;
+    color: var(--background-light-color);
+    margin-top: 20px;
+}
+
+.furniturecollection__blackwhite-subheader {
+    color: var(--background-light-color);
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    max-width: 100%
+}
 /*Sabina's css end*/
 
 /*Aleksandr's css start*/
