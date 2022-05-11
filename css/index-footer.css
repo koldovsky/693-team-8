@@ -1,4 +1,4 @@
-/* Maria block */
+/* contacts block */
 .contacts_block {
     color: var(--top-brands-h2-text-color);
     font-weight: 400;
@@ -16,5 +16,5 @@
     color: var(--top-brands-h2-text-color);
 }
 .contacts_bold_mail {
-    color: #242424;
+    color: var(--text-footer-bold-color);
 }
