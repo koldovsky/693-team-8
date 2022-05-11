@@ -20,6 +20,8 @@
     --text-footer-bold-color: #242424;
     font-family: 'Poppins', sans-serif;
     --border-color: rgba(33, 39, 54, 0.12);
+    --colorful-block-text-color: #2c2c2c;
+    --black-white-block-text-color: #a9a9a9;
 }
 
 form {
