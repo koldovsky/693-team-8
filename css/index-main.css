@@ -6,20 +6,31 @@
     background-position: 50%;
     min-height: 320px;
     background-attachment: fixed;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
-.sringcollection__content {
-    margin-left: 30px;
+.springcollection__content {
+    width: 669.984px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .springcollection__header-h2 {
     font-size: 84px;
     color: var(--text-header-color);
     text-align: left;
+    line-height: 78.1px;
+    max-width: 100%;
+}
+
+.springcollection__subheader-p {
+    font-size: 18px;
 }
 
 .springcollection__2020 {
     color: var(--brand-accent-color);
+    width: 100%;
 }
 
 .springcollection__subheader-p {
