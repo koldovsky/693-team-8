@@ -2,7 +2,14 @@
 .contacts_block {
     color: var(--top-brands-h2-text-color);
     font-weight: 400;
-    padding: 115px 0;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 40px;
+}
+.contacts_block_form {
+    padding: 60px;
 }
 .contacts_form {
     background-color: var(--background-shade-color);
