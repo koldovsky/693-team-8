@@ -41,3 +41,10 @@
         flex-direction: column;    
     }
 }
+ .footer_block {
+     background-color: black; 
+     color: white;
+}
+ .footer_block_form {
+     column-count: 5;
+}
