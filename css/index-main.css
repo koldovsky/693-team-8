@@ -250,7 +250,7 @@
 .about__text {
     font-size: 14px;
     font-weight: 500;
-    color: #757171;
+    color: var(--top-brands-span-text-color);
 }
 
 .about__text-header {
