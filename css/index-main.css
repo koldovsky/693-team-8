@@ -217,7 +217,7 @@
 .about__text {
     font-size: 14px;
     font-weight: 500;
-    color: #757171;
+    color: var(--top-brands-span-text-color);
 }
 
 .about__text-header {
@@ -334,20 +334,12 @@
 .location {
     padding: 15px;
     color: black;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.location__h5 {
-    padding: 15px;
-    color: black;
-    display: block;
-}
-
-.location__h6 {
-    padding: 15px;
-    color: black;
-    display: block;
-}
 
 
 /*Nataliia black end*/
