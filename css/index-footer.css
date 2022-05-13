@@ -1,46 +1,57 @@
-/* contacts block */
-.contacts_block {
+.contacts{
     color: var(--top-brands-h2-text-color);
     font-weight: 400;
     padding: 15px 0;
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .contacts_block_form {
     padding: 60px;
+    width: 100%;
+    max-width: 570px;
 }
 .contacts_form {
-    background-color: var(--background-shade-color);
+    background-color: #F7F5F6;
     display: flex;
     flex-direction: column;
 }
+.user_message {
+    padding-bottom: 150px;
+
+}
 .btn-contacts {
-    margin-top: 56px;
+    margin-top: 40px;
 }
 .contacts_text {
     color: var(--plain-text-color);
+    text-align: center;
+}
+.contacts_head {
+    font-size: 38px;
 }
 .contacts_bold {
     color: var(--top-brands-h2-text-color);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 .contacts_bold_mail {
     color: var(--text-footer-bold-color);
 }
-.contacts_block_info {
-    padding: 0 15px;
-    font-size: 140%;
-}
+
 .contacts_text_header {
-    width: 550px;
+    max-width: 500px;
+    font-size: 18px;
 }
 @media(max-width: 992px){
-    .contacts_block{
+    .contacts{
         display: flex;
         flex-direction: column;    
     }
 }
+
  .footer_block {
      background-color: black; 
      color: white;
