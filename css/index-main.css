@@ -367,20 +367,12 @@
 .location {
     padding: 15px;
     color: black;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.location__h5 {
-    padding: 15px;
-    color: black;
-    display: block;
-}
-
-.location__h6 {
-    padding: 15px;
-    color: black;
-    display: block;
-}
 
 
 /*Nataliia black end*/
