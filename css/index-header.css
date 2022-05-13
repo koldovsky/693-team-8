@@ -107,7 +107,7 @@
     font-weight: 500;
     color: #333333;
 }
-@media (max-width: 420px) {
+@media (max-width: 320px) {
 .header__top-navigation {
     flex-direction: column;
     margin-left: 45px;
