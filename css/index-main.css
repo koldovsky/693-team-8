@@ -1,91 +1,58 @@
 /*Sabina's css start*/
-.springcollection {
-    background-image: url(../img/collection/spring-collection-background.jpg);
-    background-size: cover;
-    padding: 170px 0 180px;
-    background-position: 50%;
-    min-height: 320px;
-    background-attachment: fixed;
-    padding-left: 32px;
-    padding-right: 32px;
-}
-
-.springcollection__content {
-    width: 669.984px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.springcollection__2020 {
+    display: block;
+    color: var(--brand-accent-color);
 }
 
 .springcollection__header-h2 {
-    font-size: 84px;
-    color: var(--text-header-color);
-    text-align: left;
-    line-height: 78.1px;
-    max-width: 100%;
-}
-
-.springcollection__subheader-p {
-    font-size: 18px;
-}
-
-.springcollection__2020 {
-    color: var(--brand-accent-color);
+    font-size: 58px;
+    font-weight: 700;
     width: 100%;
+    line-height: 63.8px;
+    overflow-wrap: break-word;
+    letter-spacing: 0;
+}
+
+.collection2020 {
+    max-width: 1200px;
+    color: var(--text-header-color);
+}
+
+.springcollection__content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 100%;
+    padding: 0 24px;
 }
 
 .springcollection__subheader-p {
-    color: var(--text-header-color);
+    margin-top: 35px;
     font-size: 18px;
-    margin-top: 40px;
-    line-height: 1.56;
-    font-weight: 400;
 }
 
 .springcollection__button {
-    margin-top: 40px;
-    width: 154.188px;
-}
-
-.collection__faves-link {
-    display: block;
-    margin: 10px;
-    border: 2px solid;
-    font-size: 12px;
+    margin-top: 35px;
+    height: 52px;
     padding: 20px 30px;
-    text-align: center;
-    border-radius: 5px;
-    background-color: var(--brand-accent-color);
-    color: #fff;
-    text-decoration: none;
 }
 
-.furniture {
-    width: 1343px;
-    height: 516.594px;
+.springcollection__content {
+    background-image: url(../img/collection/spring-collection-background.jpg);
+    background-size: cover;
+    padding: 100px 0;
+    background-position: 40.63% 51.66%;
+    background-attachment: fixed;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 30px;
 }
 
-.furniturecollections {
-    display: flex;
-    flex-direction: row;
-}
-
-@media (max-width: 767px) {
-    .furniturecollections {
-        flex-direction: column;
-    }
-}
+/*furniture collections*/
 
 .furniturecollection {
     background-size: cover;
-    width: 570px;
     background-position: 10% 47.57%;
-    height: 366.594px;
     margin: 30px;
-    display: flex;
-    justify-content: space-around;
 }
 
  .colorful {
