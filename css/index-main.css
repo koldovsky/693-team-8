@@ -28,6 +28,7 @@
 .springcollection__subheader-p {
     margin-top: 35px;
     font-size: 18px;
+    overflow-wrap: break-word;
 }
 
 .springcollection__button {
@@ -36,15 +37,15 @@
     padding: 20px 30px;
 }
 
-.springcollection__content {
+.spring-collection {
     background-image: url(../img/collection/spring-collection-background.jpg);
     background-size: cover;
-    padding: 100px 0;
+    /* padding: 100px 0; */
     background-position: 40.63% 51.66%;
-    background-attachment: fixed;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 30px;
+    /* background-attachment: fixed; */
+    /* max-width: 1200px; */
+    /* width: 100%; */
+    /* margin: 0 30px; */
 }
 
 /*furniture collections*/
