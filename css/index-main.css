@@ -1,4 +1,7 @@
 /*Sabina's css start*/
+
+/* spring collection*/
+
 .springcollection__2020 {
     display: block;
     color: var(--brand-accent-color);
@@ -14,38 +17,30 @@
 }
 
 .collection2020 {
-    max-width: 1200px;
     color: var(--text-header-color);
-}
-
-.springcollection__content {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: 100%;
-    padding: 0 24px;
+    padding: 90px 0;
 }
 
 .springcollection__subheader-p {
     margin-top: 35px;
     font-size: 18px;
-    overflow-wrap: break-word;
+    width: 100%;
 }
 
-.springcollection__button {
-    margin-top: 35px;
-    height: 52px;
-    padding: 20px 30px;
+.springcollection-block-content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 100%;
+    width: 100%;
 }
 
-.spring-collection {
+.springcollection-2020 {
     background-image: url(../img/collection/spring-collection-background.jpg);
     background-size: cover;
-    /* padding: 100px 0; */
-    background-position: 40.63% 51.66%;
-    /* background-attachment: fixed; */
-    /* max-width: 1200px; */
-    /* width: 100%; */
-    /* margin: 0 30px; */
+    padding: 100px 24px;
+    background-position: 53% 51.66%;
+    background-attachment: fixed;
+    width: 100%;
 }
 
 /*furniture collections*/
@@ -53,20 +48,33 @@
 .furniturecollection {
     background-size: cover;
     background-position: 10% 47.57%;
-    margin: 30px;
+    margin: 0 15px;
+    width: 100%;
+}
+
+.furniture {
+    padding: 0 24px;
+    margin-top: 90px;
+    max-width: 1200px;
+
 }
 
  .colorful {
     background-image: url(../img/collection/colorful-collection-background.jpg);
+    width: 100%;
 }
 
  .blackwhite {
     background-image: url(../img/collection/black-white-collection-background.jpg);
-    color: #fff;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .furniturecollections-block-content {
-    padding: 60px 30px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 39px 27px;
+    width: 100%;
 }
 
 .furniturecollection__colorful-p {
@@ -84,6 +92,7 @@
     font-weight: 500;
     color: var(--text-header-color);
     margin-top: 20px;
+    width: 100%;
 }
 
 .furniturecollection__colorful-subheader {
@@ -111,6 +120,7 @@
     font-weight: 500;
     color: var(--background-light-color);
     margin-top: 20px;
+    width: 100%;
 }
 
 .furniturecollection__blackwhite-subheader {
@@ -122,43 +132,182 @@
     line-height: 24px;
     max-width: 100%
 }
+
+/* button */
+
+.springcollection__button {
+    background-color: var(--brand-accent-color);
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 5px;
+    width: 154.188px;
+    padding: 20px 30px;
+}
+
+.springcollection-link-button {
+    display: block;
+    color: var(--background-light-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Hind, sans-serif;
+    line-height: 12px;
+}
+
+.furniturecollection__button {
+    background-color: var(--brand-accent-color);
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 5px;
+    width: 145.562px;
+    padding: 16px 24px;
+}
+
+.furniturecollection-link-button {
+    display: block;
+    color: var(--background-light-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10.8px;
+    font-family: Hind, sans-serif;
+    line-height: 10.8px;
+}
+
+/* media */
+
+@media (min-width: 400px) {
+    .springcollection__2020 {
+        display: inline;
+    }
+} 
+
+
+@media (min-width: 845px) {
+
+    .springcollection-block-content {
+        max-width: 55%;
+        padding: 46px 28px;
+    }
+    .furniturecollections {
+        display: flex;
+        margin: 0 -7px;
+    }
+    .blackwhite {
+        margin-top: 0px;
+    }
+    .furniturecollection {
+        width: 100%;
+    }
+}
+
+@media (min-width: 991px) {
+    .springcollection-block-content {
+        max-width: 58%;
+        padding: 0 32px;
+    }
+    .springcollection-2020 {
+        padding-top: 135px;
+        padding-bottom: 140px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 1024px){
+        .springcollection-2020 {
+            padding-top: 170px;
+            padding-bottom: 180px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .springcollection-block-content {
+            max-width: 58%;
+            padding: 0 40px;
+        }
+        .springcollection__header-h2 {
+            font-size: 84px;
+            line-height: 92.4px;
+    }
+      
+}
+
+@media (min-width: 1200px) {
+   
+}
+
 /*Sabina's css end*/
 
 /*Aleksandr's css start*/
-.our-top-brands__kuko_img {
-    width: 450px;
+.our-top-brands__kuko_img,
+.our_top_brands__landstrom-img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 8px 15px 8px 15px;
 }
 
-.our_top_brands__landstrom-img {
-    width: 450px;
+.main__our-top-brands {
+  background-color: var(--top-brands-background-color);
+  padding: 30px;
+  margin: 20px 20px 50px 20px;
+}
+
+.top-brands__kuko,
+.top-brands__landstrom {
+  margin: 7px 25px 25px 25px;
+  padding: 15px 15px 15px 15px;
 }
 
 .top-brands__span {
-    font-family: Poppins, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--top-brands-span-text-color);
+  margin: 15px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--top-brands-span-text-color);
 }
 
 .top-brands__h2 {
-    font-family: Poppins, sans-serif;
-    font-size: 24px;
-    font-family: 600;
-    color: var(--top-brands-h2-text-color);
+  margin: 15px;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-family: 600;
+  color: var(--top-brands-h2-text-color);
 }
 
 .top-brands__subheader {
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--plain-text-color);
+  margin: 20px 20px 40px 20px;
+  font: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--plain-text-color);
+}
+
+.our_top_brands__link {
+  text-decoration: none;
+}
+
+.btn {
+  margin: 20px;
+  padding: 8px;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: var(--brand-accent-color);
+  border-style: solid;
+}
+
+.btn:hover {
+  background: var(--brand-accent-color);
+}
+
+.btn span:hover {
+  color: var(--background-light-color);
 }
 
 .our_top_brands__link span {
-    font-family: Hind, sans-serif;
-    font-size: 10.8px;
+  font: 10.8px Hind, sans-serif;
+  color: var(--top-brands-span-text-color);
+  text-align: center;
+  padding: 10px 30px 10px 30px;
 }
-
 /*Aleksandr's css end*/
 
 /*Anna's block start*/
