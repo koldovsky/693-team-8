@@ -43,18 +43,6 @@ img {
     height: auto;
 }
 
-button {
-    color: var(--background-light-color);
-    max-width: 100%;
-    text-decoration: none;
-    text-align: center;
-    padding: 20px 30px;
-    border-radius: 5px;
-    border: none;
-    font-size: 12px;
-    font-weight: 700;
-    background-color: var(--brand-accent-color);
-}
 iframe {
     width: 90%; 
     height: 400px;
