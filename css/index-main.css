@@ -376,11 +376,11 @@
     border-style: solid;
 }
 
-.btn:hover {
+.btn__:hover {
     background: var(--brand-accent-color);
 }
 
-.btn span:hover {
+.btn__ span:hover {
     color: var(--background-light-color);
 }
 
