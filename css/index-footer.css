@@ -71,3 +71,7 @@
  .footer_block_form {
      column-count: 5;
 }
+.footer_copyright-block {
+    padding-top:20px;
+    padding-bottom:20px;
+}
