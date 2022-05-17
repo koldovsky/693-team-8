@@ -55,11 +55,11 @@
     margin: 30px;
 }
 
- .colorful {
+.colorful {
     background-image: url(../img/collection/colorful-collection-background.jpg);
 }
 
- .blackwhite {
+.blackwhite {
     background-image: url(../img/collection/black-white-collection-background.jpg);
     color: #fff;
 }
@@ -121,78 +121,102 @@
     line-height: 24px;
     max-width: 100%
 }
+
 /*Sabina's css end*/
 
 /*Aleksandr's css start*/
 .our-top-brands__kuko_img,
 .our_top_brands__landstrom-img {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 8px 15px 8px 15px;
+    max-width: 100%;
 }
 
 .main__our-top-brands {
-  background-color: var(--top-brands-background-color);
-  padding: 30px;
-  margin: 20px 20px 50px 20px;
+    background-color: var(--top-brands-background-color);
+    padding: 10px;
+    margin: 15px 15px 30px 15px;
+}
+
+.top-brands__conteiner-kuko,
+.top-brands__conteiner-landstrom {
+    max-width: 1700px;
+    margin: auto;
 }
 
 .top-brands__kuko,
 .top-brands__landstrom {
-  margin: 7px 25px 25px 25px;
-  padding: 15px 15px 15px 15px;
+    margin: 7px 25px 25px 25px;
+    padding: 15px 15px 15px 15px;
+}
+
+@media (min-width: 640px) {
+    .top-brands__kuko {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 640px) {
+    .top-brands__landstrom {
+        max-width: 150%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .top-brands__span {
-  margin: 15px;
-  font-family: Poppins, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--top-brands-span-text-color);
+    margin: 15px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--top-brands-span-text-color);
 }
 
 .top-brands__h2 {
-  margin: 15px;
-  font-family: Poppins, sans-serif;
-  font-size: 24px;
-  font-family: 600;
-  color: var(--top-brands-h2-text-color);
+    margin: 15px;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-family: 600;
+    color: var(--top-brands-h2-text-color);
 }
 
 .top-brands__subheader {
-  margin: 20px 20px 40px 20px;
-  font: Poppins, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: var(--plain-text-color);
+    margin: 20px 20px 40px 20px;
+    font: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--plain-text-color);
 }
 
 .our_top_brands__link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .btn {
-  margin: 20px;
-  padding: 8px;
-  border-width: 2px;
-  border-radius: 5px;
-  border-color: var(--brand-accent-color);
-  border-style: solid;
+    margin: 20px;
+    padding: 8px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: var(--brand-accent-color);
+    border-style: solid;
 }
 
 .btn:hover {
-  background: var(--brand-accent-color);
+    background: var(--brand-accent-color);
 }
 
 .btn span:hover {
-  color: var(--background-light-color);
+    color: var(--background-light-color);
 }
 
 .our_top_brands__link span {
-  font: 10.8px Hind, sans-serif;
-  color: var(--top-brands-span-text-color);
-  text-align: center;
-  padding: 10px 30px 10px 30px;
+    font: 10.8px Hind, sans-serif;
+    color: var(--top-brands-span-text-color);
+    text-align: center;
+    padding: 10px 30px 10px 30px;
 }
 /*Aleksandr's css end*/
 
@@ -285,6 +309,7 @@
     padding-top: 40px;
     padding-bottom: 100px;
 }
+
 .blog__title {
     font-size: 38px;
     text-align: center;
@@ -299,10 +324,10 @@
 }
 
 .blog_posts {
-    display:block;
+    display: block;
     border: 1px solid;
     border-color: var(--border-color);
-    }
+}
 
 .blog__post-text {
     text-align: center;
@@ -312,9 +337,9 @@
     display: flex;
     height: 450px;
     width: 100%;
- 
+
     align-items: center;
-   
+
 }
 
 .iconify {
@@ -324,8 +349,8 @@
 
 .options_section {
     display: flex;
-    flex-direction: row;  
-    margin-top: 20px; 
+    flex-direction: row;
+    margin-top: 20px;
     background-color: var(--background-shade-color);
     min-width: 320px;
 }
@@ -333,6 +358,7 @@
 .options {
     padding: 90px 15px 100px 15px;
 }
+
 /*Olga's block end*/
 /*Nataliia block start*/
 
