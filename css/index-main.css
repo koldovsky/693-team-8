@@ -1,7 +1,18 @@
 /*Sabina's css start*/
+
+/* spring collection*/
+
 .springcollection__2020 {
     display: block;
     color: var(--brand-accent-color);
+}
+
+.springcollection {
+    background-image: url(../img/collection/spring-collection-background.jpg);
+    background-size: cover;
+    padding: 100px 0;
+    background-position: 53% 51.66%;
+    background-attachment: fixed;
 }
 
 .springcollection__header-h2 {
@@ -14,58 +25,62 @@
 }
 
 .collection2020 {
-    max-width: 1200px;
     color: var(--text-header-color);
-}
-
-.springcollection__content {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: 100%;
-    padding: 0 24px;
+    padding: 100px 0;
 }
 
 .springcollection__subheader-p {
     margin-top: 35px;
     font-size: 18px;
-}
-
-.springcollection__button {
-    margin-top: 35px;
-    height: 52px;
-    padding: 20px 30px;
-}
-
-.springcollection__content {
-    background-image: url(../img/collection/spring-collection-background.jpg);
-    background-size: cover;
-    padding: 100px 0;
-    background-position: 40.63% 51.66%;
-    background-attachment: fixed;
-    max-width: 1200px;
     width: 100%;
-    margin: 0 30px;
+}
+
+.springcollection-block-content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 100%;
+    width: 100%;
+}
+
+.springcollection-2020 {
+    max-width: 1200px;
+    padding: 0 24px;
 }
 
 /*furniture collections*/
 
+.furniturecollections {
+    padding: 0 24px;
+}
+
 .furniturecollection {
     background-size: cover;
     background-position: 10% 47.57%;
-    margin: 30px;
+    width: 100%;
+}
+
+.furniture {
+    margin-top: 90px;
+    max-width: 1200px;
+
 }
 
 .colorful {
     background-image: url(../img/collection/colorful-collection-background.jpg);
+    width: 100%;
 }
 
 .blackwhite {
     background-image: url(../img/collection/black-white-collection-background.jpg);
-    color: #fff;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .furniturecollections-block-content {
-    padding: 60px 30px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 39px 27px;
+    width: 100%;
 }
 
 .furniturecollection__colorful-p {
@@ -83,6 +98,7 @@
     font-weight: 500;
     color: var(--text-header-color);
     margin-top: 20px;
+    width: 100%;
 }
 
 .furniturecollection__colorful-subheader {
@@ -110,6 +126,7 @@
     font-weight: 500;
     color: var(--background-light-color);
     margin-top: 20px;
+    width: 100%;
 }
 
 .furniturecollection__blackwhite-subheader {
@@ -120,6 +137,161 @@
     letter-spacing: 0.8px;
     line-height: 24px;
     max-width: 100%
+}
+
+/* button */
+
+.springcollection__button {
+    background-color: var(--brand-accent-color);
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 5px;
+    width: 154.188px;
+    padding: 20px 30px;
+}
+
+.springcollection-link-button {
+    display: block;
+    color: var(--background-light-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Hind, sans-serif;
+    line-height: 12px;
+}
+
+.furniturecollection__button {
+    background-color: var(--brand-accent-color);
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 5px;
+    width: 145.562px;
+    padding: 16px 24px;
+}
+
+.furniturecollection-link-button {
+    display: block;
+    color: var(--background-light-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10.8px;
+    font-family: Hind, sans-serif;
+    line-height: 10.8px;
+}
+
+/* media */
+
+@media (min-width: 400px) {
+    .springcollection__2020 {
+        display: inline;
+    }
+} 
+ @media (min-width: 768px) {
+
+    .springcollection-block-content {
+        max-width: 55%;
+    }
+
+    .springcollection__header-h2 {
+        font-size: 71px;
+        line-height: 78.1px;
+    }
+
+    .furniturecollections {
+        display: flex;
+        padding: 0 47px;
+        justify-content: space-between;
+    }
+     .furniture {
+         margin-top: 95px;
+         margin-bottom: 50px;
+     }
+     .furniturecollection {
+         display: flex;
+        max-width: 50%;
+        
+        margin: 0 -15px;
+     }
+     .furniturecollections-block-content {
+        padding: 46px 28px;
+     }
+ }
+
+@media (min-width: 845px) {
+
+    .springcollection {
+        padding-top: 135px;
+        padding-bottom: 140px;
+    }
+
+    .springcollection__header-h2 {
+        font-size: 71px;
+        line-height: 78.1px;
+    }
+    .springcollection-2020 {
+        padding: 0 32px;
+    }
+
+    .springcollection-block-content {
+        max-width: 56%;
+    }
+    .springcollection {
+        padding-top: 135px;
+        padding-bottom: 140px;
+    }
+}
+    
+
+@media (min-width: 991px) {
+    .springcollection-block-content {
+        max-width: 58%;
+        padding: 0 32px;
+    }
+    .springcollection__header-h2 {
+        font-size: 71px;
+        line-height: 78.1px;
+    }
+    .springcollection {
+        padding-top: 135px;
+        padding-bottom: 140px;
+    }
+}
+
+@media (min-width: 1024px){
+        .springcollection {
+            padding-top: 170px;
+            padding-bottom: 180px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .springcollection-block-content {
+            max-width: 65%;
+        }
+        .springcollection__header-h2 {
+            font-size: 84px;
+            line-height: 92.4px;
+    }
+    .springcollection-2020 {
+        padding: 0 40px;
+    }
+      
+}
+
+@media (min-width: 1200px) {
+   .springcollection-2020 {
+       margin: 0 auto;
+   }
+   .springcollection-block-content {
+       padding: 0 15px;
+   }
+   .springcollection {
+       padding-top: 170px;
+       padding-bottom: 180px;
+   }
+   .furniture{
+       margin-left: auto;
+       margin-right: auto;
+   }
 }
 
 /*Sabina's css end*/
