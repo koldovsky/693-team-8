@@ -343,12 +343,13 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: var(--background-light-color);
+    background-color: var(--background-shade-color);
     padding: 0px 15px;
 }
 
 .what__feedback-content > li {
     border: 1px solid var(--border-color);
+    background-color: var(--background-light-color);
 }
 
 .what__customer-photo {
