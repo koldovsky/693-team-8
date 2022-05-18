@@ -412,7 +412,6 @@
 }
 
 .btn__ {
-.btn {
     margin: 20px;
     padding: 8px;
     border-width: 2px;
@@ -426,7 +425,6 @@
 }
 
 .btn__ span:hover {
-.btn:hover {
     background: var(--brand-accent-color);
 }
 
