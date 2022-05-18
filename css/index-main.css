@@ -187,6 +187,10 @@
     }
 } 
  @media (min-width: 768px) {
+}
+
+
+@media (min-width: 845px) {
 
     .springcollection-block-content {
         max-width: 55%;
@@ -238,6 +242,13 @@
     .springcollection {
         padding-top: 135px;
         padding-bottom: 140px;
+
+    .blackwhite {
+        margin-top: 0px;
+    }
+
+    .furniturecollection {
+        width: 100%;
     }
 }
     
@@ -252,6 +263,8 @@
         line-height: 78.1px;
     }
     .springcollection {
+
+    .springcollection-2020 {
         padding-top: 135px;
         padding-bottom: 140px;
     }
@@ -292,6 +305,31 @@
        margin-left: auto;
        margin-right: auto;
    }
+@media (min-width: 1024px) {
+    .springcollection-2020 {
+        padding-top: 170px;
+        padding-bottom: 180px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .springcollection-block-content {
+        max-width: 58%;
+        padding: 0 40px;
+    }
+
+    .springcollection__header-h2 {
+        font-size: 84px;
+        line-height: 92.4px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .furniture {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /*Sabina's css end*/
@@ -301,6 +339,8 @@
 .our_top_brands__landstrom-img {
     max-width: 100%;
     padding-right: 20px;
+    max-height: 100%;
+    padding: 8px 15px 8px 15px;
 }
 
 .main__our-top-brands {
@@ -313,6 +353,8 @@
 .top-brands__conteiner-landstrom {
     max-width: 1700px;
     margin: auto;
+    padding: 30px;
+    margin: 20px 20px 50px 20px;
 }
 
 .top-brands__kuko,
@@ -353,6 +395,7 @@
     font-family: Poppins, sans-serif;
     font-size: 24px;
     font-family: 600;
+    font-weight: 600;
     color: var(--top-brands-h2-text-color);
 }
 
@@ -369,6 +412,7 @@
 }
 
 .btn__ {
+.btn {
     margin: 20px;
     padding: 8px;
     border-width: 2px;
@@ -382,6 +426,11 @@
 }
 
 .btn__ span:hover {
+.btn:hover {
+    background: var(--brand-accent-color);
+}
+
+.btn span:hover {
     color: var(--background-light-color);
 }
 
@@ -391,11 +440,17 @@
     text-align: center;
     padding: 10px 30px 10px 30px;
 }
+
 /*Aleksandr's css end*/
 
 /*Anna's block start*/
 .what {
     background-color: var(--background-shade-color);
+    padding: 70px 0px 90px 0px;
+}
+.what__text {
+    padding: 0px 15px;
+    text-align: center;
 }
 
 .what__text-header {
@@ -410,6 +465,21 @@
     font-weight: 400;
 }
 
+.what__feedback-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(309px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--background-shade-color);
+    padding: 0px 15px;
+}
+
+.what__feedback-content > li {
+    border: 1px solid var(--border-color);
+    background-color: var(--background-light-color);
+}
+
 .what__customer-photo {
     width: 70px;
     height: 70px;
@@ -417,9 +487,6 @@
     border-radius: 50%;
 }
 
-.what__feedback-content {
-    background-color: var(--background-light-color);
-}
 
 .what__feedback-content-name {
     color: var(--text-header-color);
@@ -441,16 +508,31 @@
 
 .about {
     background-color: var(--background-light-color);
+    padding: 90px 15px 50px 15px;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .about {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .about {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .about__text {
     background-color: var(--background-shade-color);
-}
-
-.about__text {
     font-size: 14px;
     font-weight: 500;
     color: var(--top-brands-span-text-color);
+    padding: 30px;
 }
 
 .about__text-header {
@@ -463,12 +545,68 @@
     font-size: 18px;
     font-weight: 400;
     color: var(--text-header-color);
+    left: 0;
+    position: absolute;
+    width: 90%;
+    display: inline-block;
+    margin: 5px 0;
+    text-align: left;
 }
 
 .about__accordion-content {
     font-size: 18px;
     font-weight: 400;
     color: var(--plain-text-color);
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+}
+
+.about__accordion-detail {
+    border-bottom: 1px solid var(--border-color);
+    margin: 20px 0 0 0;
+    padding: 5px 0 20px 0;
+}
+
+.about__accordion-summary:hover,
+.about__accordion-summary:active {
+    color: var(--text-header-color);
+    cursor: pointer;
+}
+
+.about__accordion-detail[open]>.about__accordion-summary {
+    font-weight: 700;
+}
+
+.about__accordion-summary {
+    display: block;
+    padding: 0;
+    position: relative;
+    text-align: right;
+}
+
+.about__accordion-summary:after {
+    display: inline-block;
+    width: 18px;
+    content: url("https://www.svgrepo.com/show/79989/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+details[open] .about__accordion-summary:after {
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    content: "";
+    background-image: url("https://www.svgrepo.com/show/79989/down-arrow.svg");
+    transform: scaleY(-1);
+}
+
+.about__accordion-summary:focus {
+    color: var(--text-header-color);
+    font-weight: 700;
+    outline: none;
 }
 
 .about__pic {
@@ -541,6 +679,7 @@
     color: rgb(125, 175, 125);
     font-size: 56px;
     font-weight: 700;
+    grid-template-columns: minmax(540px 800px);
 }
 
 .best__selling-h3 {
@@ -573,8 +712,33 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    margin: auto; 
+    max-width: 100%;
+    padding: 46px 28px;
 }
 
+@media (min-width: 400px) {
+    .best__selling-locations {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
 
+@media (min-width: 640px) {
+    .best__selling-locations {
+        grid-template-columns: 1fr 1fr;
 
-/*Nataliia black end*/
+    }
+}
+
+@media (min-width: 880px) {
+    .best__selling-locations {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+} 
+
+.location__price {
+    color:rgb(125, 175, 125);
+}
+ 
+/*Nataliia block end*/
