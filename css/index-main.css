@@ -433,14 +433,6 @@
 }
 
 .about__accordion-summary {
-    list-style: none;
-}
-
-.about__accordion-summary::-webkit-details-marker {
-    display: none;
-}
-
-.about__accordion-summary {
     display: block;
     padding: 0;
     position: relative;
@@ -468,7 +460,7 @@ details[open] .about__accordion-summary:after {
 
 .about__accordion-summary:focus {
     color: var(--text-header-color);
-    font-weight: bold;
+    font-weight: 700;
     outline: none;
 }
 
