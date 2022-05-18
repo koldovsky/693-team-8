@@ -363,15 +363,13 @@
 
 .about {
     background-color: var(--background-light-color);
-}
-
-.about {
+    padding: 90px 15px 50px 15px;
     align-items: center;
     display: grid;
-    flex-direction: row;
+    gap: 30px;
+    grid-template-columns: 1fr;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0;
 }
 
 .about__text {
@@ -379,6 +377,7 @@
     font-size: 14px;
     font-weight: 500;
     color: var(--top-brands-span-text-color);
+    padding: 30px;
 }
 
 .about__text-header {
