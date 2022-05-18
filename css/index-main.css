@@ -551,6 +551,7 @@ details[open] .about__accordion-summary:after {
     color: rgb(125, 175, 125);
     font-size: 56px;
     font-weight: 700;
+    grid-template-columns: minmax(540px 800px);
 }
 
 .best__selling-h3 {
@@ -583,8 +584,33 @@ details[open] .about__accordion-summary:after {
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    margin: auto; 
+    max-width: 100%;
+    padding: 46px 28px;
 }
 
+@media (min-width: 400px) {
+    .best__selling-locations {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
 
+@media (min-width: 640px) {
+    .best__selling-locations {
+        grid-template-columns: 1fr 1fr;
 
-/*Nataliia black end*/
+    }
+}
+
+@media (min-width: 880px) {
+    .best__selling-locations {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+} 
+
+.location__price {
+    color:rgb(125, 175, 125);
+}
+ 
+/*Nataliia block end*/
