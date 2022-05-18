@@ -318,6 +318,11 @@
 /*Anna's block start*/
 .what {
     background-color: var(--background-shade-color);
+    padding: 70px 0px 90px 0px;
+}
+.what__text {
+    padding: 0px 15px;
+    text-align: center;
 }
 
 .what__text-header {
@@ -332,6 +337,20 @@
     font-weight: 400;
 }
 
+.what__feedback-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(309px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--background-light-color);
+    padding: 0px 15px;
+}
+
+.what__feedback-content > li {
+    border: 1px solid var(--border-color);
+}
+
 .what__customer-photo {
     width: 70px;
     height: 70px;
@@ -339,9 +358,6 @@
     border-radius: 50%;
 }
 
-.what__feedback-content {
-    background-color: var(--background-light-color);
-}
 
 .what__feedback-content-name {
     color: var(--text-header-color);
