@@ -367,10 +367,20 @@
     align-items: center;
     display: grid;
     gap: 30px;
-    grid-template-columns: 1fr;
     justify-content: center;
-    flex-wrap: wrap;
-}
+   }
+
+   @media (max-width: 767px) {
+    .about{
+        grid-template-columns: 1fr;
+    }
+   }
+
+   @media (min-width: 768px) {
+        .about {
+            grid-template-columns: 1fr 1fr;
+        }
+   }
 
 .about__text {
     background-color: var(--background-shade-color);
@@ -392,25 +402,22 @@
     color: var(--text-header-color);
     left: 0;
     position: absolute;
-    text-align: left;
-    top: 0;
     width: 90%;
     display: inline-block;
     margin: 5px 0;
     text-align: left;
-    width: 90%;
 }
 
 .about__accordion-content {
     font-size: 18px;
     font-weight: 400;
     color: var(--plain-text-color);
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 10px 0 0 0;
 }
 
 .about__accordion-detail {
-    border-bottom: 1px solid hsl(240, 5%, 91%);
+    border-bottom: 1px solid var(--border-color);
     margin: 20px 0 0 0;
     padding: 5px 0 20px 0;
 }
@@ -456,8 +463,8 @@ details[open] .about__accordion-summary:after {
     height: 10px;
     content: "";
     background-image: url("https://www.svgrepo.com/show/79989/down-arrow.svg");
-    background-repeat: no-repeat;
-    background-position: center right;
+    
+    
     transform: scaleY(-1);
 }
 
@@ -467,13 +474,6 @@ details[open] .about__accordion-summary:after {
     outline: none;
 }
 
-.hidden-lg {
-    display: block;
-}
-
-.visible-lg {
-    display: none;
-}
 
 
 @media (min-width: 900px) {
@@ -492,19 +492,6 @@ details[open] .about__accordion-summary:after {
         padding: 70px 0;
         max-width: 350px;
         width: 350px;
-    }
-
-
-
-    .hidden-lg {
-        display: none;
-    }
-
-    .visible-lg {
-        display: block;
-        position: absolute;
-        margin-top: 120px;
-        left: -80px;
     }
 
     .about__accordion-content {
