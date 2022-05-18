@@ -38,7 +38,10 @@
 }
 .contacts_text {
     color: var(--plain-text-color);
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
 }
 .contacts_head {
     font-size: 38px;
@@ -48,15 +51,22 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+    width: 135px;
+    margin: 0;
+}
+.contacts_normal {
+    max-width: 342px;
+    margin: 0;
 }
 .contacts_bold_mail {
     color: var(--text-footer-bold-color);
+    max-width: 342px;
+    margin: 0;
 }
 
 .contacts_text_header {
     max-width: 500px;
     font-size: 18px;
-    padding-bottom: 20px;
 }
 
 .modal-body {
