@@ -56,7 +56,24 @@
 .contacts_text_header {
     max-width: 500px;
     font-size: 18px;
+    padding-bottom: 20px;
 }
+
+.modal-body {
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+.modul_image {
+    width: 34px;
+    margin: 0 auto;
+    padding-bottom: 33px;
+}
+
+.btn-secondary {
+    margin: 0 auto;
+}
+
 @media(max-width: 992px){
     .contacts{
         display: flex;
