@@ -677,7 +677,6 @@ details[open] .about__accordion-summary:after {
     color: rgb(125, 175, 125);
     font-size: 56px;
     font-weight: 700;
-    grid-template-columns: minmax(540px 800px);
 }
 
 .best__selling-h3 {
@@ -698,7 +697,6 @@ details[open] .about__accordion-summary:after {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    font-family: poppins;
     margin-top: 24px;
 
 }
