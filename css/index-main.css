@@ -333,7 +333,89 @@
 }
 
 /*Sabina's css end*/
-
+           /*Kyrylo css start*/
+            
+            .main_our-fave {
+                background-color: var(--top-brands-background-color);
+                padding: 10px;
+                margin: 15px 15px 30px 15px;
+            }
+            
+            .tab_our-fave button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+            }
+            
+            .tab_our-fave button:hover {
+                background-color: #ddd;
+            }
+            
+            .tabcontent_our-fave {
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-top: none;
+            }
+            
+            .our-fave-h2-h2 {
+                text-align: center;
+                font-size: 36px;
+            }
+            
+            .our-favep-p {
+                text-align: center;
+                margin: 15px;
+            }
+            
+            .tabcontent_our-fave {
+                display: flex;
+                justify-content: flex-start;
+                background-color: var(--background-light-color);
+                min-width: 320px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 18px;
+                margin-top: 24px;
+            }
+            
+            .content_our-fav {
+                padding: 15px;
+                color: black;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 10px;
+                margin: auto;
+                max-width: 100%;
+                padding: 46px 28px;
+            }
+            
+            @media (min-width: 400px) {
+                .tabcontent_our-fave {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+            }
+            
+            @media (min-width: 640px) {
+                .tabcontent_our-fave {
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+            
+            @media (min-width: 880px) {
+                .btabcontent_our-fave {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+            
+            .price_our-fave {
+                color: rgb(125, 175, 125);
+            }
 /*Aleksandr's css start*/
 .our-top-brands__kuko_img,
 .our_top_brands__landstrom-img {
