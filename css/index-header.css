@@ -1,5 +1,5 @@
 .logo-sofa-header {
-    background-image: url('img/background_chair.jpg');
+    background-image: url('../img/background_chair.jpg');
     background-size: 1600px;
     background-repeat: no-repeat;
 }
@@ -13,19 +13,21 @@
     margin-right: 390px;
 }
 .header__top-navigation-links {
+    display: flex;
     margin-left: -80px;
 }
 .color-green {
-    color: var(--green);
+    color: var(--brand-accent-color);
 }
 .nav-link {
     font-size: 15px;
     text-decoration: none;
     color: #333333;
     padding-right: 10px;
+    font-weight: 500;
 }
 .nav-link:hover {
-    color: var(--green);
+    color: var(--brand-accent-color);
 }
 .button {
     font-family: Hind;
@@ -38,12 +40,12 @@
     text-decoration: none;
     text-align: center;
     border: 2px solid;
-    border-color: var(--green);
+    border-color: var(--brand-accent-color);
     border-radius: 5px;
 }
 .link-button:hover {
     color: white;
-    background-color: var(--green);
+    background-color: var(--brand-accent-color);
 }
 .header__banner {
     margin-left: 191.5px;
@@ -70,7 +72,7 @@
     font-size: 13.2px;
     font-weight: 700;
     color: white;
-    background-color: var(--green);
+    background-color: var(--brand-accent-color);
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
