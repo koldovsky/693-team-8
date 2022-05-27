@@ -45,6 +45,11 @@
 .springcollection-2020 {
     max-width: 1200px;
     padding: 0 24px;
+    display: flex;
+}
+
+.clock {
+ font-size: 56px;
 }
 
 /*furniture collections*/
@@ -242,7 +247,7 @@
     .springcollection {
         padding-top: 135px;
         padding-bottom: 140px;
-
+    }
     .blackwhite {
         margin-top: 0px;
     }
@@ -262,8 +267,6 @@
         font-size: 71px;
         line-height: 78.1px;
     }
-    .springcollection {
-
     .springcollection-2020 {
         padding-top: 135px;
         padding-bottom: 140px;
@@ -818,5 +821,5 @@ details[open] .about__accordion-summary:after {
 .location__price {
     color:rgb(125, 175, 125);
 }
- 
+}
 /*Nataliia block end*/
