@@ -1,14 +1,7 @@
 .logo-sofa-header {
-    background-image: url(../img/background_chair.jpg);
+    background-image: url('img/background_chair.jpg');
     background-size: 1600px;
     background-repeat: no-repeat;
-}
-#burger-checkbox {
-    display: none;
-}
-.burger-icon {
-    font-size: 3rem;
-    display: none;
 }
 .header__top-navigation {
     display: flex;
@@ -16,39 +9,41 @@
     margin: 0 191.5px;
     padding: 30px 15px 30px 0;
 }
-.header__top-navigation-links {
-    margin-left: 350px;
-} 
-.color-green {
-    color: var(--brand-accent-color);
+.header__top-navigation-logo {
+    margin-right: 390px;
 }
-.link {
+.header__top-navigation-links {
+    margin-left: -80px;
+}
+.color-green {
+    color: var(--green);
+}
+.nav-link {
     font-size: 15px;
     text-decoration: none;
     color: #333333;
     padding-right: 10px;
 }
-.link:hover {
-    color: var(--brand-accent-color);
+.nav-link:hover {
+    color: var(--green);
 }
 .button {
     font-family: Hind;
 }
 .link-button {
+    width: 103.74px;
     padding: 10px 20px;
-    width: 103.66px;
-    height: 42.8px;
-    font-size: 10.8px;
+    font-size: 10.4px;
     color: #757171;
     text-decoration: none;
     text-align: center;
     border: 2px solid;
-    border-color: var(--brand-accent-color);
+    border-color: var(--green);
     border-radius: 5px;
 }
 .link-button:hover {
     color: white;
-    background-color: var(--brand-accent-color);
+    background-color: var(--green);
 }
 .header__banner {
     margin-left: 191.5px;
@@ -58,9 +53,11 @@
 .header__banner-h1 {
     line-height: 92.4px;
     font-size: 84px;
+    margin-bottom: 50px;
 }
 .subheader {
     font-size: 18px;
+    font-weight: 600;
     color: #333333;
 }
 .header__banner-link-button {
@@ -73,17 +70,18 @@
     font-size: 13.2px;
     font-weight: 700;
     color: white;
-    background-color: var(--brand-accent-color);
+    background-color: var(--green);
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
 }
 .header__banner-link-button:hover {
     background-color: #242424;
+    color: white;
 }
 .products-furniture {
     display: flex;
-    margin-top: 120px;
+    margin-top: -50px;
     margin-left: 200px;
     margin-bottom: 50px;
 }
@@ -96,36 +94,66 @@
 }
 .link__products-button {
     font-size: 12px;
+    font-weight: 400;
     color: #242424;
     text-decoration: none;
 }
 .link__products-button:hover {
     text-decoration: underline;
+    color: #242424;
+    
 }
 .products h3 {
     font-size: 22px;
     font-weight: 500;
     color: #333333;
 }
+/* sandvich menu */
+
+.burger-menu-btn {
+    margin-left: 1500px;
+    padding-top: 50px;
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.burger-menu-btn span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222222;
+    transition: all 0.5s;
+}
+.burger-menu-btn span:nth-of-type(2) {
+    top: calc(50% - 10px);
+}
+.burger-menu-btn span:nth-of-type(3) {
+    top: calc(50% + 10px);
+}
+.burger-menu-btn.active span:nth-of-type(1) {
+    display: none;
+}
+.burger-menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+}
+.burger-menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+}
 @media (max-width: 320px) {
 .header__top-navigation {
     flex-direction: column;
     margin-left: 45px;
 }
-.burger-icon {
-    display: block;
-    margin-top: -60px;
-    margin-left: 410px;
-}
-.burger-icon:hover {
-    color: var(--grey);
-}
-#burger-checkbox:checked~.header__top-navigation-links {
-    display: none;
-    flex-direction: column;
-}
-.header__top-navigation-links {
-    margin-left: 180px;
+.header__top-navigation-logo {
+    margin-right: 0px;
+    margin-top: -85px;
+    margin-bottom: 50px;
 }
 .link:hover {
     text-decoration: underline;
@@ -143,5 +171,18 @@
 .header__banner-h1 {
     line-height: 3.2rem;
     font-size: 3.2rem;
+}
+.header__top-navigation-links {
+    margin-left: 160px;
+}
+.header__top-navigation-links {
+    display: none;
+}
+.header__top-navigation-links.active {
+    display: block;
+}
+.burger-menu-btn {
+    margin-left: 240px;
+    display: block;
 }
 }
