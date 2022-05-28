@@ -56,6 +56,7 @@
     line-height: 92.4px;
     font-size: 84px;
     margin-bottom: 50px;
+    font-weight: 700;
 }
 .subheader {
     font-size: 18px;
@@ -151,6 +152,7 @@
 .header__top-navigation {
     flex-direction: column;
     margin-left: 45px;
+    text-align: center;
 }
 .header__top-navigation-logo {
     margin-right: 0px;
