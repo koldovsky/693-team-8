@@ -85,9 +85,8 @@
 }
 .products-furniture {
     display: flex;
-    margin-top: -50px;
-    margin-left: 200px;
-    margin-bottom: 50px;
+    margin: 50px auto;
+    max-width: 1200px;
 }
 .products-furniture-img {
     display: block;
