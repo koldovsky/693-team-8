@@ -11,7 +11,7 @@
     background-image: url(../img/collection/spring-collection-background.jpg);
     background-size: cover;
     padding: 100px 0;
-    background-position: 53% 51.66%;
+    background-position: 40.63% 51.66%;
     background-attachment: fixed;
 }
 
@@ -26,12 +26,13 @@
 
 .collection2020 {
     color: var(--text-header-color);
-    padding: 100px 0;
+    padding: 100px 0; 
 }
 
 .springcollection__subheader-p {
     margin-top: 35px;
     font-size: 18px;
+    line-height: 28.08px;
     width: 100%;
 }
 
@@ -45,12 +46,11 @@
 .springcollection-2020 {
     max-width: 1200px;
     padding: 0 24px;
-    display: flex;
 }
 
-.clock {
- font-size: 56px;
-}
+/* .clock {
+    font-size: 56px;
+} */
 
 /*furniture collections*/
 
@@ -65,7 +65,8 @@
 }
 
 .furniture {
-    margin-top: 90px;
+    padding-top: 90px;
+    padding-bottom: 50px;
     max-width: 1200px;
 
 }
@@ -161,9 +162,12 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
+    font-weight: 700;
     font-family: Hind, sans-serif;
     line-height: 12px;
+    width: 100%;
 }
+
 
 .furniturecollection__button {
     background-color: var(--brand-accent-color);
@@ -186,156 +190,92 @@
 
 /* media */
 
-@media (min-width: 400px) {
+@media(min-width: 480px) {
     .springcollection__2020 {
         display: inline;
     }
-} 
- @media (min-width: 768px) {
 }
-
-
-@media (min-width: 845px) {
-
-    .springcollection-block-content {
-        max-width: 55%;
-    }
-
-    .springcollection__header-h2 {
+@media(min-width: 768px) {
+    .springcollection__header-h2{
         font-size: 71px;
         line-height: 78.1px;
+        overflow-wrap: break-word;
     }
-
-    .furniturecollections {
-        display: flex;
-        padding: 0 47px;
-        justify-content: space-between;
+    .springcollection-2020{
+        padding: 0 32px;
     }
-     .furniture {
-         margin-top: 95px;
-         margin-bottom: 50px;
-     }
-     .furniturecollection {
-         display: flex;
-        max-width: 50%;
-        
+    .springcollection-block-content{
         margin: 0 -15px;
-     }
-     .furniturecollections-block-content {
-        padding: 46px 28px;
-     }
- }
-
-@media (min-width: 845px) {
-
-    .springcollection {
-        padding-top: 135px;
-        padding-bottom: 140px;
+        padding: 0 15px;
+        max-width: 58.33333%;
     }
-
-    .springcollection__header-h2 {
-        font-size: 71px;
-        line-height: 78.1px;
+    .furniture{
+        padding-top: 95px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
-    .springcollection-2020 {
-        padding: 0 32px;
+    .furniturecollections{
+        padding: 0 0;
+        display: flex;
+        margin: 0 -15px;
     }
-
-    .springcollection-block-content {
-        max-width: 56%;
-    }
-    .springcollection {
-        padding-top: 135px;
-        padding-bottom: 140px;
-    }
-    .blackwhite {
-        margin-top: 0px;
-    }
-
     .furniturecollection {
-        width: 100%;
+        margin: 0 15px;
+    }
+    .furniturecollections-block-content {
+        padding: 46px 28px;
     }
 }
-    
-
-@media (min-width: 991px) {
-    .springcollection-block-content {
-        max-width: 58%;
-        padding: 0 32px;
-    }
-    .springcollection__header-h2 {
-        font-size: 71px;
-        line-height: 78.1px;
-    }
-    .springcollection-2020 {
-        padding-top: 135px;
-        padding-bottom: 140px;
-    }
-}
-
-@media (min-width: 1024px){
-        .springcollection {
-            padding-top: 170px;
-            padding-bottom: 180px;
-            padding-left: 0;
-            padding-right: 0;
-        }
-        .springcollection-block-content {
-            max-width: 65%;
-        }
-        .springcollection__header-h2 {
-            font-size: 84px;
-            line-height: 92.4px;
-    }
-    .springcollection-2020 {
-        padding: 0 40px;
-    }
-      
-}
-
-@media (min-width: 1200px) {
-   .springcollection-2020 {
-       margin: 0 auto;
-   }
-   .springcollection-block-content {
-       padding: 0 15px;
-   }
-   .springcollection {
-       padding-top: 170px;
-       padding-bottom: 180px;
-   }
-   .furniture{
-       margin-left: auto;
-       margin-right: auto;
-   }
-@media (min-width: 1024px) {
-    .springcollection-2020 {
+@media(min-width: 992px){
+    .springcollection {
         padding-top: 170px;
-        padding-bottom: 180px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-bottom: 180px;  
+        max-width: 100%;
     }
-
-    .springcollection-block-content {
-        max-width: 58%;
+    .springcollection-2020{
         padding: 0 40px;
     }
-
-    .springcollection__header-h2 {
+    .springcollection__header-h2{
         font-size: 84px;
         line-height: 92.4px;
     }
-
-}
-
-@media (min-width: 1200px) {
-    .furniture {
-        margin-left: auto;
-        margin-right: auto;
+    .springcollection__2020{
+        display: inline;
+    }
+    .springcollection-block-content{
+        max-width: 60%;
+    }
+    .furniture{
+        padding: 100px 40px 50px 40px;
+    }
+    .furniturecollections-block-content{
+        padding: 60px 30px;
+    }
+    .furniturecollection__button{
+        margin-top: 40px;
     }
 }
-
+@media(min-width: 1200px){
+    .springcollection__subheader-p{
+        margin-top: 40px;
+    }
+    .springcollection__button{
+        margin-top: 40px;
+    }
+}
+@media(min-width: 1280px){
+    .springcollection-2020{
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .furniture{
+        padding-left:15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+}
 /*Sabina's css end*/
+
 /*Kyrylo css start*/
 
 .main_our-fave {
