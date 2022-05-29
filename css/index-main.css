@@ -1,6 +1,10 @@
 /*Sabina's css start*/
 
 /* spring collection*/
+.collection2020 p, h2 {
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
 
 .springcollection__2020 {
     display: block;
