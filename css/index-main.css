@@ -1,6 +1,18 @@
 /*Sabina's css start*/
 
 /* spring collection*/
+
+/* .spring-collection-carousel img{
+   
+}
+.spring-collection-carousel {
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    
+} */
+
+
 .collection2020 p, h2 {
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
@@ -765,5 +777,5 @@ details[open] .about__accordion-summary:after {
 .location__price {
     color:rgb(125, 175, 125);
 }
-}
+
 /*Nataliia block end*/
