@@ -196,3 +196,9 @@
     display: block;
 }
 }
+@media (max-width: 768px) {
+    .products-furniture {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
