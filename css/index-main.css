@@ -215,6 +215,7 @@
 .springcollection__button:hover, .furniturecollection__button:hover{
     background-color: var(--text-header-color);
     transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in, box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
+    cursor: pointer;
 }
 
 .springcollection-link-button:hover, .furniturecollection-link-button:hover{
