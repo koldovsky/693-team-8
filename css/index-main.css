@@ -2,372 +2,360 @@
 
 /* spring collection*/
 
-
-
 .modal-window-spring2020 {
-   display: none;
-   position: fixed;
-   z-index: 1;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   overflow: auto;
-   background-color: rgba(0, 0, 0, 0.4);
-}
-
-.modal-content-spring2020 {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    display: flex;
-    gap: 20px;
-}
-
-.close-modal-window-spring2020 {
- color: #aaa;
- float: right;
- font-size: 28px;
-}
-
-.item-spring2020-p {
-    display: grid;
-    gap: 10px;
-}
-
-@media(min-width: 640px) {
-    .items-spring2020 {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 860px) {
-    .items-spring2020 {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media (min-width: 980px) {
-    .items-spring2020 {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-.close-modal-window-spring2020 {
- color: #aaa;
- float: right;
- font-size: 28px;
-}
-
-/* .price-item-spring2020 {
-    padding: 5px;
-    border: 1px solid;
-    border-color: #888;
-    margin-top: 20px;
-    display: block;
-    float: right;
-    background-color: var(--brand-accent-color);
-} */
-
-/* spring collection block */
-
-.collection2020 p, h2 {
-    margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
-}
-
-.springcollection__2020 {
-    display: block;
-    color: var(--brand-accent-color);
-}
-
-.springcollection {
-    background-image: url(../img/collection/spring-collection-background.jpg);
-    background-size: cover;
-    padding: 100px 0;
-    background-position: 40.63% 51.66%;
-    background-attachment: fixed;
-}
-
-.springcollection__header-h2 {
-    font-size: 58px;
-    font-weight: 700;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
     width: 100%;
-    line-height: 63.8px;
-    overflow-wrap: break-word;
-    letter-spacing: 0;
-}
-
-.collection2020 {
-    color: var(--text-header-color);
-    padding: 100px 0; 
-}
-
-.springcollection__subheader-p {
-    margin-top: 35px;
-    font-size: 18px;
-    line-height: 28.08px;
-    width: 100%;
-}
-
-.springcollection-block-content {
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: 100%;
-    width: 100%;
-}
-
-.springcollection-2020 {
-    max-width: 1200px;
-    padding: 0 24px;
-}
-
-/*furniture collections*/
-
-.furniturecollections {
-    padding: 0 24px;
-}
-
-.furniturecollection {
-    background-size: cover;
-    background-position: 10% 47.57%;
-    width: 100%;
-}
-
-.furniture {
-    padding-top: 90px;
-    padding-bottom: 50px;
-    max-width: 1200px;
-
-}
-
-.colorful {
-    background-image: url(../img/collection/colorful-collection-background.jpg);
-    width: 100%;
-}
-
-.blackwhite {
-    background-image: url(../img/collection/black-white-collection-background.jpg);
-    margin-top: 50px;
-    width: 100%;
-}
-
-.furniturecollections-block-content {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    padding: 39px 27px;
-    width: 100%;
-}
-
-.furniturecollection__colorful-p {
-    color: var(--colorful-block-text-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18.62px;
-    letter-spacing: 0.896px;
-    max-width: 100%;
-}
-
-.furniturecollection__colorful-header {
-    font-size: 22px;
-    line-height: 28.6px;
-    font-weight: 500;
-    color: var(--text-header-color);
-    margin-top: 20px;
-    width: 100%;
-}
-
-.furniturecollection__colorful-subheader {
-    color: var(--plain-text-color);
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.8px;
-    line-height: 24px;
-    max-width: 100%
-}
-
-.furniturecollection__blackwhite-p {
-    color: var(--black-white-block-text-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18.62px;
-    letter-spacing: 0.896px;
-    max-width: 100%;
-}
-
-.furniturecollection__blackwhite-header {
-    font-size: 22px;
-    line-height: 28.6px;
-    font-weight: 500;
-    color: var(--background-light-color);
-    margin-top: 20px;
-    width: 100%;
-}
-
-.furniturecollection__blackwhite-subheader {
-    color: var(--background-light-color);
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.8px;
-    line-height: 24px;
-    max-width: 100%
-}
-
-/* button */
-
-.springcollection__button, .quick-view {
-    background-color: var(--brand-accent-color);
-    margin-top: 35px;
-    text-align: center;
-    border-radius: 5px;
-    width: 154.188px;
-    padding: 20px 30px;
-    text-decoration: none;
-    border-color: transparent;
-    border-width: 2px;
-    box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
-}
-
-.springcollection__button:hover, .furniturecollection__button:hover{
-    background-color: var(--text-header-color);
-    transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in, box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
-    cursor: pointer;
-}
-
-.springcollection-link-button:hover, .furniturecollection-link-button:hover{
-    color: var(--background-light-color);
-}
-
-.blackwhite-btn:hover {
-    box-shadow: 1px 1px 20px 4px rgba(238, 238, 238, 0.5);
-}
-
-.springcollection-link-button, .quick-view {
-    display: block;
-    color: var(--background-light-color);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
-    font-family: Hind, sans-serif;
-    line-height: 12px;
-    width: 100%;
-}
-
-
-.furniturecollection__button {
-    background-color: var(--brand-accent-color);
-    margin-top: 35px;
-    text-align: center;
-    border-radius: 5px;
-    width: 145.562px;
-    padding: 16px 24px;
-    border-color: transparent;
-    border-width: 2px;
-    box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
-}
-
-.furniturecollection-link-button {
-    display: block;
-    color: var(--background-light-color);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 10.8px;
-    font-family: Hind, sans-serif;
-    line-height: 10.8px;
-}
-
-/* media */
-
-@media(min-width: 480px) {
-    .springcollection__2020 {
-        display: inline;
-    }
-}
-@media(min-width: 768px) {
-    .springcollection__header-h2{
-        font-size: 71px;
-        line-height: 78.1px;
-        overflow-wrap: break-word;
-    }
-    .springcollection-2020{
-        padding: 0 32px;
-    }
-    .springcollection-block-content{
-        margin: 0 -15px;
-        padding: 0 15px;
-        max-width: 58.33333%;
-    }
-    .furniture{
-        padding-top: 95px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-    .furniturecollections{
-        padding: 0 0;
-        display: flex;
-        margin: 0 -15px;
-    }
-    .furniturecollection {
-        margin: 0 15px;
-    }
-    .furniturecollections-block-content {
-        padding: 46px 28px;
-    }
-}
-@media(min-width: 992px){
-    .springcollection {
-        padding-top: 170px;
-        padding-bottom: 180px;  
-        max-width: 100%;
-    }
-    .springcollection-2020{
-        padding: 0 40px;
-    }
-    .springcollection__header-h2{
-        font-size: 84px;
-        line-height: 92.4px;
-    }
-    .springcollection__2020{
-        display: inline;
-    }
-    .springcollection-block-content{
-        max-width: 60%;
-    }
-    .furniture{
-        padding: 100px 40px 50px 40px;
-    }
-    .furniturecollections-block-content{
-        padding: 60px 30px;
-    }
-    .furniturecollection__button{
-        margin-top: 40px;
-    }
-}
-@media(min-width: 1200px){
-    .springcollection__subheader-p{
-        margin-top: 40px;
-    }
-    .springcollection__button{
-        margin-top: 40px;
-    }
-}
-@media(min-width: 1280px){
-    .springcollection-2020{
-        padding: 0 15px;
-        margin: 0 auto;
-    }
-    .furniture{
-        padding-left:15px;
-        padding-right: 15px;
-        margin: 0 auto;
-    }
-}
-/*Sabina's css end*/
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+ }
+ 
+ .modal-content-spring2020 {
+     background-color: #fefefe;
+     margin: 15% auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 90%;
+ }
+ 
+ .items-spring2020 {
+     display: grid;
+     gap: 10px;
+ }
+ 
+ @media(min-width: 640px) {
+     .items-spring2020 {
+         grid-template-columns: 1fr 1fr;
+     }
+ }
+ 
+ @media (min-width: 860px) {
+     .items-spring2020 {
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+ }
+ 
+ @media (min-width: 980px) {
+     .items-spring2020 {
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+ }
+ 
+ .close-modal-window-spring2020 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+ }
+ 
+ /* .price-item-spring2020 {
+     padding: 5px;
+     border: 1px solid;
+     border-color: #888;
+     margin-top: 20px;
+     display: block;
+     float: right;
+     background-color: var(--brand-accent-color);
+ } */
+ 
+ /* spring collection block */
+ 
+ .collection2020 p, h2 {
+     margin-bottom: 0;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ .springcollection__2020 {
+     display: block;
+     color: var(--brand-accent-color);
+ }
+ 
+ .springcollection {
+     background-image: url(../img/collection/spring-collection-background.jpg);
+     background-size: cover;
+     padding: 100px 0;
+     background-position: 40.63% 51.66%;
+     background-attachment: fixed;
+ }
+ 
+ .springcollection__header-h2 {
+     font-size: 58px;
+     font-weight: 700;
+     width: 100%;
+     line-height: 63.8px;
+     overflow-wrap: break-word;
+     letter-spacing: 0;
+ }
+ 
+ .collection2020 {
+     color: var(--text-header-color);
+     padding: 100px 0; 
+ }
+ 
+ .springcollection__subheader-p {
+     margin-top: 35px;
+     font-size: 18px;
+     line-height: 28.08px;
+     width: 100%;
+ }
+ 
+ .springcollection-block-content {
+     display: grid;
+     grid-template-rows: auto auto auto auto;
+     grid-template-columns: 100%;
+     /* width: 100%; */
+ }
+ 
+ .springcollection-2020 {
+     max-width: 1200px;
+     padding: 0 24px;
+ }
+ 
+ /*furniture collections*/
+ 
+ .furniturecollections {
+     padding: 0 24px;
+ }
+ 
+ .furniturecollection {
+     background-size: cover;
+     background-position: 10% 47.57%;
+     width: 100%;
+ }
+ 
+ .furniture {
+     padding-top: 90px;
+     padding-bottom: 50px;
+     max-width: 1200px;
+ }
+ 
+ .colorful {
+     background-image: url(../img/collection/colorful-collection-background.jpg);
+     width: 100%;
+ }
+ 
+ .blackwhite {
+     background-image: url(../img/collection/black-white-collection-background.jpg);
+     margin-top: 50px;
+     width: 100%;
+ }
+ 
+ .furniturecollections-block-content {
+     display: grid;
+     grid-template-rows: auto auto auto;
+     padding: 39px 27px;
+     width: 100%;
+ }
+ 
+ .furniturecollection__colorful-p {
+     color: var(--colorful-block-text-color);
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 18.62px;
+     letter-spacing: 0.896px;
+     max-width: 100%;
+ }
+ 
+ .furniturecollection__colorful-header {
+     font-size: 22px;
+     line-height: 28.6px;
+     font-weight: 500;
+     color: var(--text-header-color);
+     margin-top: 20px;
+     width: 100%;
+ }
+ 
+ .furniturecollection__colorful-subheader {
+     color: var(--plain-text-color);
+     margin-top: 20px;
+     font-size: 16px;
+     font-weight: 400;
+     letter-spacing: 0.8px;
+     line-height: 24px;
+     max-width: 100%
+ }
+ 
+ .furniturecollection__blackwhite-p {
+     color: var(--black-white-block-text-color);
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 18.62px;
+     letter-spacing: 0.896px;
+     max-width: 100%;
+ }
+ 
+ .furniturecollection__blackwhite-header {
+     font-size: 22px;
+     line-height: 28.6px;
+     font-weight: 500;
+     color: var(--background-light-color);
+     margin-top: 20px;
+     width: 100%;
+ }
+ 
+ .furniturecollection__blackwhite-subheader {
+     color: var(--background-light-color);
+     margin-top: 20px;
+     font-size: 16px;
+     font-weight: 400;
+     letter-spacing: 0.8px;
+     line-height: 24px;
+     max-width: 100%
+ }
+ 
+ /* button */
+ 
+ .springcollection__button, .quick-view{
+     background-color: var(--brand-accent-color);
+     margin-top: 35px;
+     text-align: center;
+     border-radius: 5px;
+     width: 154.188px;
+     padding: 20px 30px;
+     text-decoration: none;
+     border-color: transparent;
+     border-width: 2px;
+     box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
+ }
+ 
+ .springcollection__button:hover, .furniturecollection__button:hover{
+     background-color: var(--text-header-color);
+     transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in, box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
+     cursor: pointer;
+ }
+ 
+ .springcollection-link-button:hover, .furniturecollection-link-button:hover{
+     color: var(--background-light-color);
+ }
+ 
+ .blackwhite-btn:hover {
+     box-shadow: 1px 1px 20px 4px rgba(238, 238, 238, 0.5);
+ }
+ 
+ .springcollection-link-button, .quick-view {
+     display: block;
+     color: var(--background-light-color);
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 12px;
+     font-weight: 700;
+     font-family: Hind, sans-serif;
+     line-height: 12px;
+ }
+ 
+ 
+ .furniturecollection__button {
+     background-color: var(--brand-accent-color);
+     margin-top: 35px;
+     text-align: center;
+     border-radius: 5px;
+     width: 145.562px;
+     padding: 16px 24px;
+     border-color: transparent;
+     border-width: 2px;
+     box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
+ }
+ 
+ .furniturecollection-link-button {
+     display: block;
+     color: var(--background-light-color);
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 10.8px;
+     font-family: Hind, sans-serif;
+     line-height: 10.8px;
+ }
+ 
+ /* media */
+ 
+ @media(min-width: 480px) {
+     .springcollection__2020 {
+         display: inline;
+     }
+ }
+ @media(min-width: 768px) {
+     .springcollection__header-h2{
+         font-size: 71px;
+         line-height: 78.1px;
+         overflow-wrap: break-word;
+     }
+     .springcollection-2020{
+         padding: 0 32px;
+     }
+     .springcollection-block-content{
+         margin: 0 -15px;
+         padding: 0 15px;
+         max-width: 58.33333%;
+     }
+     .furniture{
+         padding-top: 95px;
+         padding-left: 32px;
+         padding-right: 32px;
+     }
+     .furniturecollections{
+         padding: 0 0;
+         display: flex;
+         margin: 0 -15px;
+     }
+     .furniturecollection {
+         margin: 0 15px;
+     }
+     .furniturecollections-block-content {
+         padding: 46px 28px;
+     }
+ }
+ @media(min-width: 992px){
+     .springcollection {
+         padding-top: 170px;
+         padding-bottom: 180px;  
+         max-width: 100%;
+     }
+     .springcollection-2020{
+         padding: 0 40px;
+     }
+     .springcollection__header-h2{
+         font-size: 84px;
+         line-height: 92.4px;
+     }
+     .springcollection__2020{
+         display: inline;
+     }
+     .springcollection-block-content{
+         max-width: 60%;
+     }
+     .furniture{
+         padding: 100px 40px 50px 40px;
+     }
+     .furniturecollections-block-content{
+         padding: 60px 30px;
+     }
+     .furniturecollection__button{
+         margin-top: 40px;
+     }
+ }
+ @media(min-width: 1200px){
+     .springcollection__subheader-p{
+         margin-top: 40px;
+     }
+     .springcollection__button{
+         margin-top: 40px;
+     }
+ }
+ @media(min-width: 1280px){
+     .springcollection-2020{
+         padding: 0 15px;
+         margin: 0 auto;
+     }
+     .furniture{
+         padding-left:15px;
+         padding-right: 15px;
+         margin: 0 auto;
+     }
+ }
+ /*Sabina's css end*/
 
 /*Kyrylo css start*/
 
