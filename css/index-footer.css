@@ -92,8 +92,10 @@
 }
 @media(max-width: 560px){
     .contacts{
+        width: 80%;
+    }
+    .contacts_block_info{
         padding-left: 20px;
-        width: 90%;
     }
     .contacts_block_form {
         padding: 30px;
@@ -101,8 +103,10 @@
 }
 @media(max-width: 400px){
     .contacts{
+        width: 90%;
+    }
+    .contacts_block_info{
         padding-left: 20px;
-        width: 70%;
     }
     .contacts_block_form {
         padding: 20px;
