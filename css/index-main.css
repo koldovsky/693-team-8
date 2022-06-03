@@ -2,10 +2,7 @@
 
 /* spring collection*/
 
-.fast-order {
-    margin-top: 30px;
-    padding: 10px;
-}
+
 
 .modal-window-spring2020 {
    display: none;
@@ -36,10 +33,35 @@
 }
 
 .item-spring2020-p {
-    margin-top: 20px;
+    display: grid;
+    gap: 10px;
 }
 
-.price-item-spring2020 {
+@media(min-width: 640px) {
+    .items-spring2020 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 860px) {
+    .items-spring2020 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    .items-spring2020 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.close-modal-window-spring2020 {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+}
+
+/* .price-item-spring2020 {
     padding: 5px;
     border: 1px solid;
     border-color: #888;
@@ -47,7 +69,9 @@
     display: block;
     float: right;
     background-color: var(--brand-accent-color);
-}
+} */
+
+/* spring collection block */
 
 .collection2020 p, h2 {
     margin-bottom: 0;
@@ -90,7 +114,7 @@
 
 .springcollection-block-content {
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
     grid-template-columns: 100%;
     width: 100%;
 }
@@ -99,10 +123,6 @@
     max-width: 1200px;
     padding: 0 24px;
 }
-
-/* .clock {
-    font-size: 56px;
-} */
 
 /*furniture collections*/
 
@@ -199,7 +219,7 @@
 
 /* button */
 
-.springcollection__button {
+.springcollection__button, .quick-view {
     background-color: var(--brand-accent-color);
     margin-top: 35px;
     text-align: center;
@@ -226,7 +246,7 @@
     box-shadow: 1px 1px 20px 4px rgba(238, 238, 238, 0.5);
 }
 
-.springcollection-link-button {
+.springcollection-link-button, .quick-view {
     display: block;
     color: var(--background-light-color);
     text-decoration: none;
