@@ -90,6 +90,12 @@
         flex-direction: column;    
     }
 }
+@media(max-width: 560px){
+    .contacts{
+        padding-left: 20px;
+        width: 90%;
+    }
+}
 
  .footer_block {
      background-color: black; 
