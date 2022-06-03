@@ -87,7 +87,9 @@
 @media(max-width: 992px){
     .contacts{
         display: flex;
-        flex-direction: column;    
+        flex-direction: column;  
+        align-items: center;
+        justify-content: center;  
     }
 }
 @media(max-width: 560px){
@@ -103,7 +105,6 @@
         width: 90%;
     }
 }
-
  .footer_block {
      background-color: black; 
      color: white;
