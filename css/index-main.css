@@ -206,6 +206,23 @@
     border-radius: 5px;
     width: 154.188px;
     padding: 20px 30px;
+    text-decoration: none;
+    border-color: transparent;
+    border-width: 2px;
+    box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
+}
+
+.springcollection__button:hover, .furniturecollection__button:hover{
+    background-color: var(--text-header-color);
+    transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in, box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
+}
+
+.springcollection-link-button:hover, .furniturecollection-link-button:hover{
+    color: var(--background-light-color);
+}
+
+.blackwhite-btn:hover {
+    box-shadow: 1px 1px 20px 4px rgba(238, 238, 238, 0.5);
 }
 
 .springcollection-link-button {
@@ -228,6 +245,9 @@
     border-radius: 5px;
     width: 145.562px;
     padding: 16px 24px;
+    border-color: transparent;
+    border-width: 2px;
+    box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
 }
 
 .furniturecollection-link-button {
