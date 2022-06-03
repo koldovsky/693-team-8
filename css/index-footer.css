@@ -94,7 +94,18 @@
     .contacts{
         padding-left: 20px;
         width: 90%;
-        margin: 0 auto;
+    }
+    .contacts_block_form {
+        padding: 30px;
+    }
+}
+@media(max-width: 400px){
+    .contacts{
+        padding-left: 20px;
+        width: 70%;
+    }
+    .contacts_block_form {
+        padding: 20px;
     }
 }
 
