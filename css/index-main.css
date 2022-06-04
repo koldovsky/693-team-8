@@ -551,7 +551,10 @@
 .what {
     background-color: var(--background-shade-color);
     padding: 70px 0px 90px 0px;
+    max-width: 1200px;
+    margin: auto;
 }
+
 .what__text {
     padding: 0px 15px;
     text-align: center;
@@ -613,6 +616,8 @@
 .about {
     background-color: var(--background-light-color);
     padding: 90px 15px 50px 15px;
+    max-width: 1200px;
+    margin: auto;
     align-items: center;
     display: grid;
     gap: 30px;
