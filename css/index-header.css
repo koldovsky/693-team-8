@@ -5,52 +5,43 @@
     background-size: 1600px;
     background-repeat: no-repeat;
 }
-.header__top-navigation {
-    display: flex;
+.container-fluid {
+    width: 1200px !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.navbar-nav {
     align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
-    padding: 30px 15px 30px 0;
 }
-.interval {
-    width: 25%;
+.nav-link {
+    color: #333 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
 }
-.header__top-navigation-links {
-    display: flex;
-    margin-left: -80px;
+.nav-link:hover {
+    color: rgb(123, 181, 124) !important;
+}
+.nav-link__btn {
+    display: block;
+    width: 103px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    border: 2px solid rgb(123, 181, 124);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.nav-link__btn:hover {
+    color: white;
+    background-color: rgb(123, 181, 124);
 }
 .color-green {
     color: var(--brand-accent-color);
-}
-.nav-link {
-    font-size: 15px;
-    text-decoration: none;
-    color: #333333;
-    padding-right: 10px;
-    font-weight: 500;
-}
-.nav-link:hover {
-    color: var(--brand-accent-color);
-}
-.button {
-    font-family: Hind;
-}
-.link-button {
-    width: 103.74px;
-    padding: 10px 20px;
-    font-size: 10.4px;
-    font-weight: 700;
-    color: #757171;
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid;
-    border-color: var(--brand-accent-color);
-    border-radius: 5px;
-}
-.link-button:hover {
-    color: white;
-    background-color: var(--brand-accent-color);
 }
 .header__banner {
     margin-left: 191.5px;
@@ -108,68 +99,13 @@
 .link__products-button:hover {
     text-decoration: underline;
     color: #242424;
-    
 }
 .products h3 {
     font-size: 22px;
     font-weight: 500;
     color: #333333;
 }
-/* sandvich menu */
-
-.burger-menu-btn {
-    margin-left: 1500px;
-    padding-top: 50px;
-    display: none;
-    width: 30px;
-    height: 30px;
-    position: relative;
-}
-.burger-menu-btn span {
-    width: 30px;
-    height: 2px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #222222;
-    transition: all 0.5s;
-}
-.burger-menu-btn span:nth-of-type(2) {
-    top: calc(50% - 10px);
-}
-.burger-menu-btn span:nth-of-type(3) {
-    top: calc(50% + 10px);
-}
-.burger-menu-btn.active span:nth-of-type(1) {
-    display: none;
-}
-.burger-menu-btn.active span:nth-of-type(2) {
-    top: 50%;
-    transform: translate(-50%, 0%) rotate(45deg);
-}
-.burger-menu-btn.active span:nth-of-type(3) {
-    top: 50%;
-    transform: translate(-50%, 0%) rotate(-45deg);
-}
 @media (max-width: 320px) {
-.header__top-navigation {
-    flex-direction: column;
-    margin-left: 45px;
-    text-align: center;
-}
-.header__top-navigation-logo {
-    margin-right: 0px;
-    margin-top: -85px;
-    margin-bottom: 50px;
-}
-.nav-link {
-    display: block;
-    width: 140px;
-}
-.link:hover {
-    text-decoration: underline;
-}
 .products-furniture {
     flex-direction: column;
     margin-left: 10px;
@@ -177,25 +113,12 @@
 .header__banner{
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 10px;
     padding-top: 0;
 }
 .header__banner-h1 {
     line-height: 3.2rem;
     font-size: 3.2rem;
-}
-.header__top-navigation-links {
-    margin-left: 160px;
-}
-.header__top-navigation-links {
-    display: none;
-}
-.header__top-navigation-links.active {
-    display: block;
-}
-.burger-menu-btn {
-    margin-left: 240px;
-    display: block;
 }
 }
 @media (max-width: 768px) {
@@ -203,16 +126,4 @@
     flex-direction: column;
     margin-left: 10px;
     }
-}
-@media (max-width: 991px) {
-    .header__top-navigation-links {
-        display: none;
-    }
-    .header__top-navigation-links.active {
-        display: block;
-}
-.burger-menu-btn {
-    margin-left: 90%;
-    display: flex;
-}
 }
