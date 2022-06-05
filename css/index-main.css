@@ -582,9 +582,10 @@
     padding: 0px 15px;
 }
 
-.what__feedback-content > li {
+.what__slide {
     border: 1px solid var(--border-color);
     background-color: var(--background-light-color);
+    min-height: 310px;
 }
 
 .what__customer-photo {
