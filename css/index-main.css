@@ -558,6 +558,7 @@
     padding: 0px 15px;
     max-width: 1200px;
     text-align: center;
+    margin: auto;
 }
 
 .what__text-header {
@@ -575,7 +576,7 @@
     max-width: 1200px;
     display: flex;
     flex-direction: row;
-    margin: 5% 10%;
+    margin: 2% auto;
 }
 
 .what__slide {
@@ -583,13 +584,13 @@
     flex: 1;
     justify-content: space-around;
     align-items: center;
-    min-height: 400px;
 }
 
 .what__feedback-content {
     border: 1px solid var(--border-color);
     background-color: var(--background-light-color);
     margin: 0 10px;
+    min-height: 335px;
 }
 
 .what__customer-photo {
