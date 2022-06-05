@@ -577,6 +577,15 @@
     display: flex;
     flex-direction: row;
     margin: 2% auto;
+    padding: 0 5%;
+}
+
+.what__forwardbtn, .what__backbtn {
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--top-brands-span-text-color);
+    margin: auto;
+    border: none;
 }
 
 .what__slide {
@@ -589,8 +598,9 @@
 .what__feedback-content {
     border: 1px solid var(--border-color);
     background-color: var(--background-light-color);
-    margin: 0 10px;
-    min-height: 335px;
+    min-height: 400px;
+    padding: 15px;
+    margin: 0 1%;
 }
 
 .what__customer-photo {
