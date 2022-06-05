@@ -24,10 +24,10 @@
  
  .items-spring2020 {
      display: grid;
-     gap: 10px;
+     gap: 10px; 
  }
  
- @media(min-width: 640px) {
+  @media(min-width: 640px) {
      .items-spring2020 {
          grid-template-columns: 1fr 1fr;
      }
@@ -47,8 +47,13 @@
  
  .close-modal-window-spring2020 {
   color: #aaa;
-  float: right;
+  /* float: right; */
   font-size: 28px;
+  /* display: inline-block; */
+ }
+
+ .product-card {
+     display: grid;
  }
  
  /* .price-item-spring2020 {
