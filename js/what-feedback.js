@@ -1,6 +1,6 @@
 (function(){
     const slides = [
-                    `<div">
+                    `<div class="what__feedback-content">
                         <img class="what__customer-photo" src="img/what-feedback-judy.jpg" alt="customer photo">
                         <p class="what__feedback-content-name">Judy Peterson</p>
                         <p class="what__feedback-content-city-data">New York</p>
@@ -8,7 +8,7 @@
                             into the interior. The assemblage of the furniture was super fast!</p>
                         <p class="what__feedback-content-city-data">October 28, 2018</p>
                         </div>`,
-                    `<div">
+                    `<div class="what__feedback-content">
                         <img class="what__customer-photo" src="img/what-feedback-kyle.jpg" alt="customer photo">
                         <p class="what__feedback-content-name">Kyle Hudson</p>
                         <p class="what__feedback-content-city-data">Houston</p>
@@ -16,7 +16,7 @@
                             living room. They look great and fit perfectly into my interior.</p>
                         <p class="what__feedback-content-city-data">June 13, 2019</p>
                         </div>`,
-                    `<div">
+                    `<div class="what__feedback-content">
                         <img class="what__customer-photo" src="img/what-feedback-hanna.jpg" alt="customer photo">
                         <p class="what__feedback-content-name">Hanna Levy</p>
                         <p class="what__feedback-content-city-data">Boston</p>
@@ -24,7 +24,7 @@
                             have to wait for weeks! Thank you for the quick processing of my order!</p>
                         <p class="what__feedback-content-city-data">October 04, 2019</p>
                         </div>`,
-                    `<div">
+                    `<div class="what__feedback-content">
                         <img class="what__customer-photo" src="img/what-feedback-jim.jpg" alt="customer photo">
                         <p class="what__feedback-content-name">Jim Mockeen</p>
                         <p class="what__feedback-content-city-data">Chicago</p>
@@ -32,7 +32,7 @@
                             but also stylish lamps which were exactly what I wanted. Thank you, SOFA!</p>
                         <p class="what__feedback-content-city-data">January 18, 2020</p>
                         </div>`,
-                    `<div">
+                    `<div class="what__feedback-content">
                         <img class="what__customer-photo" src="img/what-feedback-karen.jpg" alt="customer photo">
                         <p class="what__feedback-content-name">Karen Morning</p>
                         <p class="what__feedback-content-city-data">Washington</p>
@@ -45,7 +45,7 @@
     let currentSlide = 0;
   
     function renderCarousel() {
-      const slideContainer = document.querySelector(".what__feedback-content .what__slide");
+      const slideContainer = document.querySelector(".what__slide");
       slideContainer.innerHTML = slides[currentSlide];
       if (window.innerWidth >= 600) {
         const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
@@ -70,10 +70,10 @@
 
     renderCarousel();
 
-    const btnForward = document.querySelector(".what__feedback-content .what__forwardbtn");
+    const btnForward = document.querySelector(".what__forwardbtn");
     btnForward.addEventListener('click', nextSlide);
 
-    const btnBack = document.querySelector(".what__feedback-content .what__backbtn");
+    const btnBack = document.querySelector(".what__backbtn");
     btnBack.addEventListener('click', prevSlide);
 
     window.addEventListener('resize', renderCarousel);
