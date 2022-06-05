@@ -724,7 +724,7 @@
 .about__accordion-summary:after {
     display: inline-block;
     width: 18px;
-    content: url("https://www.svgrepo.com/show/79989/down-arrow.svg");
+    content: url(../img/about-down-arrow.svg);
     background-repeat: no-repeat;
     background-position: right center;
     text-align: right;
@@ -736,7 +736,7 @@ details[open] .about__accordion-summary:after {
     width: 18px;
     height: 10px;
     content: "";
-    background-image: url("https://www.svgrepo.com/show/79989/down-arrow.svg");
+    background-image: url(../img/about-down-arrow.svg);
     transform: scaleY(-1);
 }
 
