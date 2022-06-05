@@ -577,6 +577,7 @@
     font-size: 18px;
     font-weight: 400;
 }
+
 .what__feedback {
     max-width: 1200px;
     display: flex;
@@ -614,7 +615,6 @@
     object-fit: cover;
     border-radius: 50%;
 }
-
 
 .what__feedback-content-name {
     color: var(--text-header-color);
