@@ -647,7 +647,7 @@
 
 @media (max-width: 767px) {
     .about {
-        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
 
@@ -655,6 +655,16 @@
     .about {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+.about__pic {
+    background-image: url(../img/about-img.jpg);
+    box-sizing: border-box;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
 }
 
 .about__text {
@@ -737,11 +747,6 @@ details[open] .about__accordion-summary:after {
     color: var(--text-header-color);
     font-weight: 700;
     outline: none;
-}
-
-.about__pic {
-    display: block;
-    width: 100%;
 }
 
 /*Anna's block end*/
