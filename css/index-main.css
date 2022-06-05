@@ -636,7 +636,7 @@
 
 .about {
     background-color: var(--background-light-color);
-    padding: 90px 15px 50px 15px;
+    padding: 90px 30px 50px 30px;
     max-width: 1200px;
     margin: auto;
     align-items: center;
@@ -659,9 +659,6 @@
 
 .about__pic {
     background-image: url(../img/about-img.jpg);
-    box-sizing: border-box;
-    max-width: 100%;
-    background-repeat: no-repeat;
     background-position: center;
     height: 100%;
     background-size: cover;
@@ -747,6 +744,17 @@ details[open] .about__accordion-summary:after {
     color: var(--text-header-color);
     font-weight: 700;
     outline: none;
+}
+
+.about__play-button {
+    display: flex;
+    height: 50%;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.about__play-button > img {
+    width: 15%;
 }
 
 /*Anna's block end*/
