@@ -2,15 +2,10 @@
 
 /* spring collection*/
 
-.items-spring2020 {
-    min-height: 400px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.carousel .slide {
-    display: flex;
-    justify-content: space-around;
+.product-card__price {
+    color: var(--brand-accent-color);
+    font-weight: 500;
+    font-size: 22px;
 }
 
 .modal-window-spring2020 {
@@ -33,11 +28,11 @@
      width: 90%;
  }
  
- /* .items-spring2020 {
+ .items-spring2020 {
      display: grid;
      gap: 10px; 
  }
-  */
+ 
   @media(min-width: 640px) {
      .items-spring2020 {
          grid-template-columns: 1fr 1fr;
@@ -57,25 +52,15 @@
  }
  
  .close-modal-window-spring2020 {
-  color: #aaa;
+  color: var(--text-header-color);
   /* float: right; */
   font-size: 28px;
-  /* display: inline-block; */
- }
+  }
 
  .product-card {
      display: grid;
  }
  
- /* .price-item-spring2020 {
-     padding: 5px;
-     border: 1px solid;
-     border-color: #888;
-     margin-top: 20px;
-     display: block;
-     float: right;
-     background-color: var(--brand-accent-color);
- } */
  
  /* spring collection block */
  
