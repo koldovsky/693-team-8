@@ -37,7 +37,7 @@
     margin-top: 40px;
 }
 .btn-contacts:hover {
-    color: var(--background-light-color);
+    color: var(--top-brands-h2-text-color);
 }
 .contacts_text {
     color: var(--plain-text-color);
