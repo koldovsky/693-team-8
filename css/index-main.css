@@ -2,6 +2,17 @@
 
 /* spring collection*/
 
+.items-spring2020 {
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel .slide {
+    display: flex;
+    justify-content: space-around;
+}
+
 .modal-window-spring2020 {
     display: none;
     position: fixed;
@@ -22,11 +33,11 @@
      width: 90%;
  }
  
- .items-spring2020 {
+ /* .items-spring2020 {
      display: grid;
      gap: 10px; 
  }
- 
+  */
   @media(min-width: 640px) {
      .items-spring2020 {
          grid-template-columns: 1fr 1fr;
