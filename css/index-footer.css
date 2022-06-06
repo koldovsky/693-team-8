@@ -82,7 +82,11 @@
     margin: 0 auto;
     padding-bottom: 33px;
 }
-
+.btn-primary {
+    color: #fff;
+    background-color: var(--top-brands-h2-text-color);
+    border-color: var(--top-brands-h2-text-color);
+}
 .btn-secondary {
     margin: 0 auto;
 }
