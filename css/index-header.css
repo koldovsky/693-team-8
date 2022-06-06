@@ -43,7 +43,9 @@
     color: var(--brand-accent-color);
 }
 .header__banner {
-    margin-left: 191.5px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     padding-top: 155px;
     padding-bottom: 330px;
 }
