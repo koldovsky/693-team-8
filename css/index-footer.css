@@ -84,8 +84,8 @@
 }
 .btn-primary {
     color: #fff;
-    background-color: var(--top-brands-h2-text-color);
-    border-color: var(--top-brands-h2-text-color);
+    background-color: var(--brand-accent-color);
+    border-color: var(--brand-accent-color);
 }
 
 .btn-primary:focus {
