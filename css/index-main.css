@@ -590,6 +590,7 @@
     width: 30px;
     border-radius: 50%;
     background-color: var(--top-brands-span-text-color);
+    color: var(--background-light-color);
     margin: auto;
     border: none;
 }
