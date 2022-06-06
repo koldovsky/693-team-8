@@ -1,0 +1,42 @@
+[
+    {
+       "id":"1",
+       "imgUrl":"img/what-feedback-judy.jpg",
+       "name":"Judy Peterson",
+       "city":"New York",
+       "message":"I'm very pleased with our new sofa! It fits perfectly into the interior. The assemblage of the furniture was super fast!",
+       "date":"October 28, 2018"
+    },
+    {
+       "id":"2",
+       "imgUrl":"img/what-feedback-kyle.jpg",
+       "name":"Kyle Hudson",
+       "city":"Houston",
+       "message":"Thank you for helping me choose new armchairs in the living room. They look great and fit perfectly into my interior.",
+       "date":"June 13, 2019"
+    },
+    {
+       "id":"3",
+       "imgUrl":"img/what-feedback-hanna.jpg",
+       "name":"Hanna Levy",
+       "city":"Boston",
+       "message":"Next-day delivery surprised me a lot! I thought I would have to wait for weeks! Thank you for the quick processing of my order!",
+       "date":"October 04, 2019"
+    },
+    {
+       "id":"4",
+       "imgUrl":"img/what-feedback-jim.jpg",
+       "name":"Jim Mockeen",
+       "city":"Chicago",
+       "message":"I not only found the perfect sofa at a reasonable price but also stylish lamps which were exactly what I wanted. Thank you, SOFA!",
+       "date":"January 18, 2020"
+    },
+    {
+       "id":"5",
+       "imgUrl":"img/what-feedback-karen.jpg",
+       "name":"Karen Morning",
+       "city":"Washington",
+       "message":"My order arrived really quickly and I was amazed by the quality - PERFECT. I would and have recommended SOFA to others.",
+       "date":"February 03, 2020"
+    }
+ ]
