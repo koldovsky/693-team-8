@@ -102,15 +102,53 @@
             <h2 class="top-colection-h">Top Collections of Designer Cushioned Furniture</h2>
         </div>
         <section class="best__selling" id="best__selling">
+            <div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="cartLabel">Cart</h5>
+                      <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="cart-product-list-container"></div>
+                      <hr>
+                      <div class="container">
+                        <form class="form-contacts">
+                          <div class="form-group row">
+                            <label for="client-name" class="col-4 col-form-label">Your name:</label>
+                            <input class="form-control col-8" type="text" id="client-name" required>
+                          </div>
+                          <div class="form-group row">
+                            <label for="client-email" class="col-4 col-form-label">Your email:</label>
+                            <input class="form-control col-8" type="email" id="client-email" required>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary close-btn" data-bs-dismiss="modal">Close</button>
+                      <button class="btn btn-primary order">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <h3 class="best__selling-h3">Best-selling Products</h3>
             <p class="best__selling-p">Our customers' faves of the week</p>
+            <div>
+                <a class="nav-link openCartLink" href="#modal-cart" data-bs-toggle="modal">
+                  <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-badge" class="badge bg-dark">Cart</span>
+                </a>
+            </div>
             <div class="best__selling-locations">
                 <article class="location">
                     <img class="js-preview-img" src="img/white-interior.png" width="350" height="350"
                         alt="Lord armchair, Miedel Home">
                     <h4 class="location__h4">Lord armchair, Miedel Home</h4>
                     <div class="location__price">120,00USD</div>
-                    <button type="button" class="location__price">ORDER NOW</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="1">ORDER NOW</button>
                 </article>
 
                 <article class="location">
@@ -118,7 +156,7 @@
                         alt="Ultimate Green chair, XODO">
                     <h4 class="location__h4">Ultimate Green chair, XODO</h4>
                     <div class="location__price">90,00USD</div>
-                    <button type="button" class="location__price">ORDER NOW</button>
+                    <button type="button" class="btn btn-secondary btn-ens-action " data-bs-dismiss="modal" id="2">ORDER NOW</button>
                 </article>
 
                 <article class="location">
@@ -126,7 +164,7 @@
                         alt="Valetta armchair, ZIX studio">
                     <h4 class="location__h4">Valetta armchair, ZIX studio</h4>
                     <div class="location__price">310,00USD</div>
-                    <button type="button" class="location__price">ORDER NOW</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="3">ORDER NOW</button>
                 </article>
             </div>
         </section>
@@ -516,6 +554,12 @@
         </div>
     </footer>
     <!--Yuliya`s block end-->
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+   
+    <script src="js/products-service.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/product-list.js"></script>    
+    <script src="js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
